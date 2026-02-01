@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea Nuova News - CRI Selvazzano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #fafafa;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 16px;
+            border-bottom: 1px solid #dbdbdb;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header h1 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .btn-back {
+            color: #E31E24;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .image-upload {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1;
+            background: #fafafa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border-bottom: 1px solid #dbdbdb;
+        }
+
+        .image-upload.has-image {
+            background: #000;
+        }
+
+        .image-preview {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+
+        .image-preview.show {
+            display: block;
+        }
+
+        .upload-placeholder {
+            text-align: center;
+            color: #8e8e8e;
+        }
+
+        .upload-placeholder svg {
+            width: 96px;
+            height: 77px;
+            margin-bottom: 16px;
+        }
+
+        .upload-placeholder p {
+            font-size: 22px;
+            font-weight: 300;
+            margin-bottom: 8px;
+        }
+
+        .upload-placeholder button {
+            background: #0095f6;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 16px;
+        }
+
+        #imageInput {
+            display: none;
+        }
+
+        .form-section {
+            padding: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #262626;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #dbdbdb;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            resize: vertical;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #E31E24;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+        }
+
+        .char-count {
+            text-align: right;
+            font-size: 12px;
+            color: #8e8e8e;
+            margin-top: 4px;
+        }
+
+        .btn-publish {
+            width: 100%;
+            background: #E31E24;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        .btn-publish:hover {
+            background: #c71a1f;
+        }
+
+        .btn-publish:disabled {
+            background: #dbdbdb;
+            cursor: not-allowed;
+        }
+
+        .preview-section {
+            padding: 16px;
+            border-top: 1px solid #dbdbdb;
+            background: #fafafa;
+        }
+
+        .preview-section h3 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #262626;
+        }
+
+        .preview-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .preview-image {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+
+        .preview-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .preview-content {
+            padding: 12px;
+        }
+
+        .preview-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #262626;
+            margin-bottom: 4px;
+        }
+
+        .preview-excerpt {
+            font-size: 12px;
+            color: #8e8e8e;
+            line-height: 1.4;
+        }
+
+        .success-message {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #00ba34;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            display: none;
+            z-index: 1000;
+        }
+
+        .success-message.show {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateX(-50%) translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(-50%) translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="success-message" id="successMessage">✓ News pubblicata con successo!</div>
+
+    <div class="container">
+        <div class="header">
+            <a href="index.php" class="btn-back">← Indietro</a>
+            <h1>Crea Nuova News</h1>
+            <div style="width: 60px;"></div>
+        </div>
+
+        <div class="image-upload" id="imageUpload" onclick="document.getElementById('imageInput').click()">
+            <img id="imagePreview" class="image-preview" alt="Preview">
+            <div class="upload-placeholder" id="uploadPlaceholder">
+                <svg aria-label="Icona per rappresentare contenuti multimediali come immagini o video" fill="currentColor" height="77" role="img" viewBox="0 0 97.6 77.3" width="96">
+                    <path d="M16.3 24h.3c2.8-.2 4.9-2.6 4.8-5.4-.2-2.8-2.6-4.9-5.4-4.8s-4.9 2.6-4.8 5.4c.1 2.7 2.4 4.8 5.1 4.8zm-2.4-7.2c.5-.6 1.3-1 2.1-1h.2c1.7 0 3.1 1.4 3.1 3.1 0 1.7-1.4 3.1-3.1 3.1-1.7 0-3.1-1.4-3.1-3.1 0-.8.3-1.5.8-2.1z" fill="currentColor"></path>
+                    <path d="M84.7 18.4 58 16.9l-.2-3c-.3-5.7-5.2-10.1-11-9.8L12.9 6c-5.7.3-10.1 5.3-9.8 11L5 51v.8c.7 5.2 5.1 9.1 10.3 9.1h.6l21.7-1.2v.6c-.3 5.7 4 10.7 9.8 11l34 2h.6c5.5 0 10.1-4.3 10.4-9.8l2-34c.4-5.8-4-10.7-9.7-11.1zM7.2 10.8C8.7 9.1 10.8 8.1 13 8l34-1.9c4.6-.3 8.6 3.3 8.9 7.9l.2 2.8-5.3-.3c-5.7-.3-10.7 4-11 9.8l-.6 9.5-9.5 10.7c-.2.3-.6.4-1 .5-.4 0-.7-.1-1-.4l-7.8-7c-1.4-1.3-3.5-1.1-4.8.3L7 49 5.2 17c-.2-2.3.6-4.5 2-6.2zm8.7 48c-4.3.2-8.1-2.8-8.8-7.1l9.4-10.5c.2-.3.6-.4 1-.5.4 0 .7.1 1 .4l7.8 7c.7.6 1.6.9 2.5.9.9 0 1.7-.5 2.3-1.1l7.8-8.8-1.1 18.6-21.9 1.1zm76.5-29.5-2 34c-.3 4.6-4.3 8.2-8.9 7.9l-34-2c-4.6-.3-8.2-4.3-7.9-8.9l2-34c.3-4.4 3.9-7.9 8.4-7.9h.5l34 2c4.7.3 8.2 4.3 7.9 8.9z" fill="currentColor"></path>
+                    <path d="M78.2 41.6 61.3 30.5c-2.1-1.4-4.9-.8-6.2 1.3-.4.7-.7 1.4-.7 2.2l-1.2 20.1c-.1 2.5 1.7 4.6 4.2 4.8h.3c.7 0 1.4-.2 2-.5l18-9c2.2-1.1 3.1-3.8 2-6-.4-.7-.9-1.3-1.5-1.8zm-1.4 6-18 9c-.4.2-.8.3-1.3.3-.4 0-.9-.2-1.2-.4-.7-.5-1.2-1.3-1.1-2.2l1.2-20.1c.1-.9.6-1.7 1.4-2.1.8-.4 1.7-.3 2.5.1L77 43.3c1.2.8 1.5 2.3.7 3.4-.2.4-.5.7-.9.9z" fill="currentColor"></path>
+                </svg>
+                <p>Aggiungi foto</p>
+                <button type="button">Seleziona dal computer</button>
+            </div>
+        </div>
+        <input type="file" id="imageInput" accept="image/*">
+
+        <form id="postForm" class="form-section">
+            <div class="form-group">
+                <label for="title">Titolo</label>
+                <input type="text" id="title" placeholder="Scrivi un titolo accattivante..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="content">Descrizione</label>
+                <textarea id="content" placeholder="Racconta la tua storia..." required></textarea>
+                <div class="char-count"><span id="charCount">0</span> caratteri</div>
+            </div>
+
+            <button type="submit" class="btn-publish" id="publishBtn" disabled>Pubblica</button>
+        </form>
+
+        <div class="preview-section">
+            <h3>Anteprima</h3>
+            <div class="preview-card">
+                <div class="preview-image" id="previewImage">Nessuna immagine</div>
+                <div class="preview-content">
+                    <div class="preview-title" id="previewTitle">Titolo della news</div>
+                    <div class="preview-excerpt" id="previewExcerpt">La descrizione apparirà qui...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedImage = null;
+
+        // Image upload
+        const imageInput = document.getElementById('imageInput');
+        const imagePreview = document.getElementById('imagePreview');
+        const imageUpload = document.getElementById('imageUpload');
+        const uploadPlaceholder = document.getElementById('uploadPlaceholder');
+        const previewImage = document.getElementById('previewImage');
+
+        imageInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                selectedImage = file;
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    imagePreview.src = e.target.result;
+                    imagePreview.classList.add('show');
+                    uploadPlaceholder.style.display = 'none';
+                    imageUpload.classList.add('has-image');
+                    
+                    previewImage.innerHTML = `<img src="${e.target.result}" alt="Preview">`;
+                    updatePublishButton();
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Form inputs
+        const titleInput = document.getElementById('title');
+        const contentInput = document.getElementById('content');
+        const charCount = document.getElementById('charCount');
+        const previewTitle = document.getElementById('previewTitle');
+        const previewExcerpt = document.getElementById('previewExcerpt');
+        const publishBtn = document.getElementById('publishBtn');
+
+        titleInput.addEventListener('input', function() {
+            previewTitle.textContent = this.value || 'Titolo della news';
+            updatePublishButton();
+        });
+
+        contentInput.addEventListener('input', function() {
+            charCount.textContent = this.value.length;
+            const excerpt = this.value.substring(0, 100) + (this.value.length > 100 ? '...' : '');
+            previewExcerpt.textContent = excerpt || 'La descrizione apparirà qui...';
+            updatePublishButton();
+        });
+
+        function updatePublishButton() {
+            const hasImage = selectedImage !== null;
+            const hasTitle = titleInput.value.trim() !== '';
+            const hasContent = contentInput.value.trim() !== '';
+            publishBtn.disabled = !(hasImage && hasTitle && hasContent);
+        }
+
+        // Form submit
+        document.getElementById('postForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formData = new FormData();
+            formData.append('image', selectedImage);
+            formData.append('title', titleInput.value);
+            formData.append('content', contentInput.value);
+
+            publishBtn.disabled = true;
+            publishBtn.textContent = 'Pubblicazione...';
+
+            try {
+                const response = await fetch('api.php?action=create', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    document.getElementById('successMessage').classList.add('show');
+                    setTimeout(() => {
+                        window.location.href = 'index.php';
+                    }, 1500);
+                } else {
+                    alert('Errore: ' + result.message);
+                    publishBtn.disabled = false;
+                    publishBtn.textContent = 'Pubblica';
+                }
+            } catch (error) {
+                alert('Errore durante la pubblicazione');
+                publishBtn.disabled = false;
+                publishBtn.textContent = 'Pubblica';
+            }
+        });
+    </script>
+</body>
+</html>

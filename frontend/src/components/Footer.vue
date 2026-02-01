@@ -25,16 +25,17 @@
             <li>📍 Via Torquato Tasso 8, Caselle di Selvazzano (PD)</li>
             <li>📞 Tel: 049.8977463</li>
             <li>✉️ selvazzanodentro@cri.it</li>
+            <li>📧 PEC: criselvazzanodentro@pec.cri.it</li>
           </ul>
         </div>
         
         <div class="footer-col">
-          <h4>Seguici</h4>
-          <div class="social">
-            <a href="#" class="social-icon">FB</a>
-            <a href="#" class="social-icon">IG</a>
-            <a href="#" class="social-icon">TW</a>
-          </div>
+          <h4>Dati Fiscali</h4>
+          <ul>
+            <li>CF: 04776880280</li>
+            <li>P.IVA: 04776880280</li>
+            <li>IBAN: IT88N0306909606100000078845</li>
+          </ul>
         </div>
       </div>
       
@@ -82,6 +83,7 @@
 
 .footer-col ul li {
   margin-bottom: 8px;
+  font-size: 0.9rem;
 }
 
 .footer-col a {

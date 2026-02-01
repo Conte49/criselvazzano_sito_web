@@ -22,7 +22,7 @@
                 <li>Dimissioni ospedaliere</li>
                 <li>Assistenza durante il trasporto</li>
               </ul>
-              <a href="#" class="btn btn-primary">Richiedi</a>
+              <a href="https://wa.me/393801720578?text=Buongiorno,%20vorrei%20richiedere%20informazioni%20sul%20servizio%20di%20Trasporto%20Sanitario" target="_blank" class="btn btn-primary">Richiedi su WhatsApp</a>
             </div>
           </div>
 
@@ -38,7 +38,7 @@
                 <li>Manifestazioni pubbliche</li>
                 <li>Concerti e feste</li>
               </ul>
-              <a href="#" class="btn btn-primary">Richiedi</a>
+              <a href="https://wa.me/393801720578?text=Buongiorno,%20vorrei%20richiedere%20informazioni%20sul%20servizio%20di%20Assistenza%20Manifestazioni" target="_blank" class="btn btn-primary">Richiedi su WhatsApp</a>
             </div>
           </div>
 
@@ -54,7 +54,7 @@
                 <li>Primo soccorso pediatrico</li>
                 <li>Corsi per aziende</li>
               </ul>
-              <a href="#" class="btn btn-primary">Info</a>
+              <a href="https://wa.me/393801720578?text=Buongiorno,%20vorrei%20informazioni%20sui%20Corsi%20di%20Primo%20Soccorso" target="_blank" class="btn btn-primary">Info su WhatsApp</a>
             </div>
           </div>
 

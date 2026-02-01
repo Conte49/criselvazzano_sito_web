@@ -114,7 +114,9 @@ export default {
 
 <style scoped>
 .hero {
-  background: linear-gradient(135deg, var(--cri-red) 0%, var(--cri-dark-red) 100%);
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/src/assets/images/hero-home.jpg');
+  background-size: cover;
+  background-position: center;
   color: white;
   padding: 120px 0;
   text-align: center;

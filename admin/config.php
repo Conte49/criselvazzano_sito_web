@@ -2,7 +2,7 @@
 session_start();
 
 // Configurazione
-define('ADMIN_PASSWORD_HASH', '$2y$10$9JW0Aivx86CahhrZltWAY.MvC3Dkq/WXa86Mad1zoCrdWv9cHg5tS'); // password: CRI2025!Selvazzano
+define('ADMIN_PASSWORD_HASH', '$2y$10$0VcV1r0GRLLoDe7ie.HFtOQxDvJJVz9uLWw1cepCUXdY.PLP0ztc.'); // password: CRI#Selv2025!Admin@Secure
 define('DATA_DIR', __DIR__ . '/../data');
 define('IMAGES_DIR', __DIR__ . '/../news-images');
 define('POSTS_FILE', DATA_DIR . '/posts.json');

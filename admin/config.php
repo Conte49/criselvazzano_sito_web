@@ -8,6 +8,19 @@ define('IMAGES_DIR', __DIR__ . '/../news-images');
 define('POSTS_FILE', DATA_DIR . '/posts.json');
 define('MEDIA_FILE', DATA_DIR . '/media.json');
 
+// Crea la cartella data se non esiste
+if (!file_exists(DATA_DIR)) {
+    mkdir(DATA_DIR, 0755, true);
+}
+
+// Inizializza i file JSON se non esistono
+if (!file_exists(POSTS_FILE)) {
+    file_put_contents(POSTS_FILE, '[]');
+}
+if (!file_exists(MEDIA_FILE)) {
+    file_put_contents(MEDIA_FILE, '[]');
+}
+
 // Funzioni helper
 function isLoggedIn() {
     return isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true;

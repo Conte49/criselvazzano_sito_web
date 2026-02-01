@@ -23,9 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die('CSRF token non valido');
     }
     
-    $title = trim($_POST['title'] ?? '');
+    $title = sanitizeInput($_POST['title'] ?? '');
     $content = $_POST['content'] ?? '';
-    $excerpt = trim($_POST['excerpt'] ?? '');
+    $excerpt = sanitizeInput($_POST['excerpt'] ?? '');
     
     if ($title && $content) {
         $now = date('Y-m-d\TH:i:s');
@@ -34,8 +34,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Handle image upload
         $featuredMediaId = $post['featured_media'] ?? 0;
         if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
+            $allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+            $fileType = $_FILES['image']['type'];
+            
+            if (!in_array($fileType, $allowedTypes)) {
+                die('Tipo file non consentito');
+            }
+            
+            if ($_FILES['image']['size'] > 5 * 1024 * 1024) {
+                die('File troppo grande (max 5MB)');
+            }
+            
             $ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
-            $filename = $slug . '.' . $ext;
+            $filename = sanitizeFilename($slug . '.' . $ext);
             $filepath = IMAGES_DIR . '/' . $filename;
             
             if (move_uploaded_file($_FILES['image']['tmp_name'], $filepath)) {

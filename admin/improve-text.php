@@ -12,7 +12,7 @@ if (file_exists(__DIR__ . '/.env')) {
     }
 }
 
-$text = $_POST['text'] ?? '';
+$text = sanitizeInput($_POST['text'] ?? '');
 $type = $_POST['type'] ?? 'content'; // title o content
 $csrfToken = $_POST['csrf_token'] ?? '';
 
@@ -25,6 +25,28 @@ if (!$text) {
     echo json_encode(['success' => false, 'message' => 'Testo mancante']);
     exit;
 }
+
+if (strlen($text) > 5000) {
+    echo json_encode(['success' => false, 'message' => 'Testo troppo lungo']);
+    exit;
+}
+
+// Rate limiting
+if (!isset($_SESSION['ai_last_call'])) {
+    $_SESSION['ai_last_call'] = 0;
+    $_SESSION['ai_call_count'] = 0;
+}
+
+if (time() - $_SESSION['ai_last_call'] < 60) {
+    $_SESSION['ai_call_count']++;
+    if ($_SESSION['ai_call_count'] > 10) {
+        echo json_encode(['success' => false, 'message' => 'Troppi tentativi, riprova tra un minuto']);
+        exit;
+    }
+} else {
+    $_SESSION['ai_call_count'] = 1;
+}
+$_SESSION['ai_last_call'] = time();
 
 $apiKey = $_ENV['OPENAI_API_KEY'] ?? '';
 if (!$apiKey) {

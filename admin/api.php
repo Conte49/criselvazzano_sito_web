@@ -13,7 +13,7 @@ if ($action === 'create' && $_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
     
-    $title = trim($_POST['title'] ?? '');
+    $title = sanitizeInput($_POST['title'] ?? '');
     $content = $_POST['content'] ?? '';
     
     if (!$title || !$content) {
@@ -29,8 +29,21 @@ if ($action === 'create' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     // Handle image upload
     $featuredMediaId = 0;
     if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
+        $allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+        $fileType = $_FILES['image']['type'];
+        
+        if (!in_array($fileType, $allowedTypes)) {
+            echo json_encode(['success' => false, 'message' => 'Tipo file non consentito']);
+            exit;
+        }
+        
+        if ($_FILES['image']['size'] > 5 * 1024 * 1024) {
+            echo json_encode(['success' => false, 'message' => 'File troppo grande (max 5MB)']);
+            exit;
+        }
+        
         $ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
-        $filename = $slug . '-' . time() . '.' . $ext;
+        $filename = sanitizeFilename($slug . '-' . time() . '.' . $ext);
         $filepath = IMAGES_DIR . '/' . $filename;
         
         if (move_uploaded_file($_FILES['image']['tmp_name'], $filepath)) {

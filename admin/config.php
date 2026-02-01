@@ -64,6 +64,15 @@ function saveMedia($media) {
     return file_put_contents(MEDIA_FILE, $json, LOCK_EX);
 }
 
+function sanitizeInput($input) {
+    return htmlspecialchars(trim($input), ENT_QUOTES, 'UTF-8');
+}
+
+function sanitizeFilename($filename) {
+    $filename = preg_replace('/[^a-zA-Z0-9._-]/', '_', $filename);
+    return basename($filename);
+}
+
 function generateSlug($title) {
     $slug = strtolower($title);
     $slug = preg_replace('/[^a-z0-9]+/', '_', $slug);

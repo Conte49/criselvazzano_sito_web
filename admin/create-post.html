@@ -247,6 +247,27 @@
             animation: slideDown 0.3s ease;
         }
 
+        .btn-ai {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .btn-ai:hover {
+            opacity: 0.9;
+        }
+
+        .btn-ai:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
         @keyframes slideDown {
             from {
                 transform: translateX(-50%) translateY(-20px);
@@ -286,12 +307,18 @@
         <form id="postForm" class="form-section">
             <div class="form-group">
                 <label for="title">Titolo</label>
-                <input type="text" id="title" placeholder="Scrivi un titolo accattivante..." required>
+                <div style="display: flex; gap: 8px;">
+                    <input type="text" id="title" placeholder="Scrivi un titolo accattivante..." required style="flex: 1;">
+                    <button type="button" onclick="improveText('title')" class="btn-ai" title="Migliora con AI">✨</button>
+                </div>
             </div>
 
             <div class="form-group">
                 <label for="content">Descrizione</label>
-                <textarea id="content" placeholder="Racconta la tua storia..." required></textarea>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <textarea id="content" placeholder="Racconta la tua storia..." required></textarea>
+                    <button type="button" onclick="improveText('content')" class="btn-ai" style="align-self: flex-end;">✨ Migliora testo</button>
+                </div>
                 <div class="char-count"><span id="charCount">0</span> caratteri</div>
             </div>
 
@@ -401,6 +428,54 @@
                 publishBtn.textContent = 'Pubblica';
             }
         });
+
+        // Funzione per migliorare il testo con AI
+        async function improveText(type) {
+            const input = type === 'title' ? titleInput : contentInput;
+            const text = input.value.trim();
+            
+            if (!text) {
+                alert('Scrivi prima del testo da migliorare');
+                return;
+            }
+
+            const btn = event.target;
+            const originalText = btn.textContent;
+            btn.disabled = true;
+            btn.textContent = type === 'title' ? '⏳' : '⏳ Miglioramento...';
+
+            try {
+                const formData = new FormData();
+                formData.append('text', text);
+                formData.append('type', type);
+
+                const response = await fetch('improve-text.php', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    input.value = result.text;
+                    if (type === 'content') {
+                        charCount.textContent = result.text.length;
+                        const excerpt = result.text.substring(0, 100) + (result.text.length > 100 ? '...' : '');
+                        previewExcerpt.textContent = excerpt;
+                    } else {
+                        previewTitle.textContent = result.text;
+                    }
+                    updatePublishButton();
+                } else {
+                    alert('Errore: ' + result.message);
+                }
+            } catch (error) {
+                alert('Errore durante il miglioramento del testo');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = originalText;
+            }
+        }
     </script>
 </body>
 </html>

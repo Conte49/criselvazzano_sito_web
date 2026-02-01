@@ -76,4 +76,18 @@
   margin-bottom: 12px;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .hero-small {
+    padding: 60px 0;
+  }
+
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+
+  .content {
+    padding: 0 16px;
+  }
+}
 </style>

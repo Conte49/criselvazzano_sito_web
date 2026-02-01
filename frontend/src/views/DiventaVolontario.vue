@@ -198,4 +198,22 @@ input:focus, textarea:focus {
   outline: none;
   border-color: var(--cri-red);
 }
+
+@media (max-width: 768px) {
+  .hero-small {
+    padding: 60px 0;
+  }
+
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .cta-box {
+    padding: 24px;
+  }
+}
 </style>

@@ -9,18 +9,30 @@
 
     <section class="section">
       <div class="container">
+        <div class="filters">
+          <input type="text" v-model="searchQuery" placeholder="Cerca nelle news..." class="search-input">
+        </div>
+        
         <div class="news-grid">
-          <div class="news-card" v-for="post in posts" :key="post.id">
+          <router-link :to="`/news/${post.id}`" class="news-card" v-for="post in filteredPosts" :key="post.id">
             <div class="news-image" v-if="post.featured_media">
-              <img :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered">
+              <img :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered" loading="lazy">
+            </div>
+            <div class="news-image placeholder" v-else>
+              <Icon name="medical" :size="64" color="#E31E24" />
             </div>
             <div class="news-content">
-              <div class="news-date">{{ formatDate(post.date) }}</div>
+              <div class="news-meta">
+                <span class="news-date">{{ formatDate(post.date) }}</span>
+              </div>
               <h3 v-html="post.title.rendered"></h3>
-              <div class="news-excerpt" v-html="post.excerpt.rendered"></div>
-              <router-link :to="`/news/${post.id}`" class="btn btn-outline">Leggi di più</router-link>
+              <div class="news-excerpt" v-html="truncateExcerpt(post.excerpt.rendered)"></div>
             </div>
-          </div>
+          </router-link>
+        </div>
+        
+        <div v-if="filteredPosts.length === 0" class="no-results">
+          <p>Nessuna news trovata</p>
         </div>
       </div>
     </section>
@@ -30,25 +42,42 @@
 <script>
 import posts from '../data/posts.json'
 import media from '../data/media.json'
+import Icon from '../components/Icon.vue'
 
 export default {
+  components: { Icon },
   data() {
     return {
       posts,
-      media
+      media,
+      searchQuery: ''
+    }
+  },
+  computed: {
+    filteredPosts() {
+      if (!this.searchQuery) return this.posts
+      const query = this.searchQuery.toLowerCase()
+      return this.posts.filter(post => 
+        post.title.rendered.toLowerCase().includes(query) ||
+        post.excerpt.rendered.toLowerCase().includes(query)
+      )
     }
   },
   methods: {
     formatDate(date) {
       return new Date(date).toLocaleDateString('it-IT', { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
       })
     },
     getMediaUrl(mediaId) {
       const mediaItem = this.media.find(m => m.id === mediaId)
       return mediaItem?.source_url || ''
+    },
+    truncateExcerpt(html) {
+      const text = html.replace(/<[^>]*>/g, '')
+      return text.length > 150 ? text.substring(0, 150) + '...' : text
     }
   }
 }
@@ -67,56 +96,132 @@ export default {
   margin-bottom: 16px;
 }
 
+.filters {
+  margin-bottom: 32px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 24px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--cri-red);
+}
+
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
 }
 
 .news-card {
   background: white;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: 0.3s;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+  display: block;
+  color: inherit;
 }
 
 .news-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(227,30,36,0.15);
 }
 
 .news-image {
-  height: 200px;
+  height: 220px;
   overflow: hidden;
   background: var(--cri-light-gray);
+  position: relative;
+}
+
+.news-image.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .news-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.news-card:hover .news-image img {
+  transform: scale(1.05);
 }
 
 .news-content {
-  padding: 24px;
+  padding: 20px;
+}
+
+.news-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 .news-date {
-  color: var(--cri-text-light);
+  color: var(--cri-red);
   font-size: 0.875rem;
-  margin-bottom: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .news-content h3 {
   font-size: 1.25rem;
   margin-bottom: 12px;
   color: var(--cri-text);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .news-excerpt {
   color: var(--cri-text-light);
-  margin-bottom: 16px;
   line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--cri-text-light);
+  font-size: 1.125rem;
+}
+
+@media (max-width: 768px) {
+  .hero-small {
+    padding: 60px 0;
+  }
+
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .news-image {
+    height: 180px;
+  }
+
+  .search-input {
+    font-size: 0.9rem;
+  }
 }
 </style>

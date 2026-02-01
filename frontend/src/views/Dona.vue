@@ -163,4 +163,26 @@ export default {
   margin-bottom: 16px;
   color: var(--cri-red);
 }
+
+@media (max-width: 768px) {
+  .hero-small {
+    padding: 60px 0;
+  }
+
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+
+  .highlight-box {
+    padding: 24px;
+  }
+
+  .cf-code {
+    font-size: 1.5rem;
+  }
+
+  .steps-simple {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

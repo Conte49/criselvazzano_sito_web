@@ -139,8 +139,19 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .hero-small {
+    padding: 60px 0;
+  }
+
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+
   .service-detail {
     flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 }
 </style>

@@ -98,7 +98,7 @@ export default {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 60px;
 }
 
@@ -160,8 +160,17 @@ textarea:focus {
 }
 
 @media (max-width: 768px) {
+  .hero-small {
+    padding: 60px 0;
+  }
+
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+
   .contact-grid {
     grid-template-columns: 1fr;
+    gap: 40px;
   }
 }
 </style>

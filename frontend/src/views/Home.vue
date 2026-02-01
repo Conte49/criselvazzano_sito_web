@@ -44,17 +44,19 @@
       <div class="container">
         <h2 class="section-title">Ultime News</h2>
         <div class="news-grid">
-          <div class="news-card" v-for="post in latestNews" :key="post.id">
+          <router-link :to="`/news/${post.id}`" class="news-card" v-for="post in latestNews" :key="post.id">
             <div class="news-image" v-if="post.featured_media">
-              <img :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered">
+              <img :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered" loading="lazy">
+            </div>
+            <div class="news-image placeholder" v-else>
+              <Icon name="medical" :size="64" color="#E31E24" />
             </div>
             <div class="news-content">
               <div class="news-date">{{ formatDate(post.date) }}</div>
               <h3 v-html="post.title.rendered"></h3>
-              <div class="news-excerpt" v-html="post.excerpt.rendered"></div>
-              <router-link :to="`/news/${post.id}`" class="news-link">Leggi di più →</router-link>
+              <div class="news-excerpt" v-html="truncateExcerpt(post.excerpt.rendered)"></div>
             </div>
-          </div>
+          </router-link>
         </div>
         <div style="text-align: center; margin-top: 40px;">
           <router-link to="/news" class="btn btn-outline">Vedi tutte le news</router-link>
@@ -93,14 +95,18 @@ export default {
   methods: {
     formatDate(date) {
       return new Date(date).toLocaleDateString('it-IT', { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
       })
     },
     getMediaUrl(mediaId) {
       const mediaItem = this.media.find(m => m.id === mediaId)
       return mediaItem?.source_url || ''
+    },
+    truncateExcerpt(html) {
+      const text = html.replace(/<[^>]*>/g, '')
+      return text.length > 120 ? text.substring(0, 120) + '...' : text
     }
   }
 }
@@ -184,60 +190,77 @@ export default {
 
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
 }
 
 .news-card {
   background: white;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: 0.3s;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+  display: block;
+  color: inherit;
 }
 
 .news-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(227,30,36,0.15);
 }
 
 .news-image {
-  height: 200px;
+  height: 220px;
   overflow: hidden;
   background: var(--cri-light-gray);
+  position: relative;
+}
+
+.news-image.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .news-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.news-card:hover .news-image img {
+  transform: scale(1.05);
 }
 
 .news-content {
-  padding: 24px;
+  padding: 20px;
 }
 
 .news-date {
-  color: var(--cri-text-light);
+  color: var(--cri-red);
   font-size: 0.875rem;
-  margin-bottom: 8px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: block;
+  text-transform: uppercase;
 }
 
 .news-content h3 {
   font-size: 1.25rem;
   margin-bottom: 12px;
   color: var(--cri-text);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .news-excerpt {
   color: var(--cri-text-light);
-  margin-bottom: 16px;
   line-height: 1.6;
-}
-
-.news-link {
-  color: var(--cri-red);
-  font-weight: 600;
+  font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {

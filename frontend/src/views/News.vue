@@ -15,11 +15,9 @@
         
         <div class="news-grid">
           <router-link :to="`/news/${post.id}`" class="news-card" v-for="post in filteredPosts" :key="post.id">
-            <div class="news-image" v-if="post.featured_media">
-              <img :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered" loading="lazy" @error="handleImageError">
-            </div>
-            <div class="news-image placeholder" v-else>
-              <img src="/src/assets/images/logo-cri.png" alt="CRI Selvazzano">
+            <div class="news-image" :class="{ placeholder: !getMediaUrl(post.featured_media) }">
+              <img v-if="getMediaUrl(post.featured_media)" :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered" loading="lazy">
+              <img v-else src="/src/assets/images/logo-cri.png" alt="CRI Selvazzano">
             </div>
             <div class="news-content">
               <div class="news-meta">
@@ -88,15 +86,6 @@ export default {
     truncateExcerpt(html) {
       const text = html.replace(/<[^>]*>/g, '')
       return text.length > 150 ? text.substring(0, 150) + '...' : text
-    },
-    handleImageError(event) {
-      const img = event.target
-      const parent = img.parentElement
-      parent.classList.add('placeholder')
-      img.src = '/src/assets/images/logo-cri.png'
-      img.style.objectFit = 'contain'
-      img.style.padding = '40px'
-      img.style.background = '#f5f5f5'
     }
   }
 }

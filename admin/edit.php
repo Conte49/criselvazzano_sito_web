@@ -107,31 +107,38 @@ if ($post && $post['featured_media']) {
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; }
-        .header { background: white; border-bottom: 1px solid #e0e0e0; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; }
-        .header h1 { color: #E31E24; font-size: 20px; }
-        .header a { color: #757575; text-decoration: none; }
-        .container { max-width: 900px; margin: 24px auto; padding: 0 24px; }
-        .form-box { background: white; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        .form-group { margin-bottom: 24px; }
-        label { display: block; margin-bottom: 8px; color: #212121; font-weight: 600; }
-        input[type="text"], textarea { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 4px; font-size: 16px; font-family: inherit; }
+        .header { background: white; border-bottom: 1px solid #e0e0e0; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .header h1 { color: #E31E24; font-size: 16px; display: flex; align-items: center; gap: 6px; }
+        .header a { color: #757575; text-decoration: none; font-size: 14px; }
+        .container { max-width: 100%; margin: 0; padding: 16px; }
+        .form-box { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; color: #212121; font-weight: 600; font-size: 14px; }
+        input[type="text"], textarea { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 16px; font-family: inherit; }
         input[type="text"]:focus, textarea:focus { outline: none; border-color: #E31E24; }
         textarea { min-height: 100px; resize: vertical; }
-        .dropzone { border: 2px dashed #e0e0e0; border-radius: 8px; padding: 40px; text-align: center; cursor: pointer; transition: all 0.3s; position: relative; }
-        .dropzone:hover { border-color: #E31E24; background: #fafafa; }
+        .dropzone { border: 2px dashed #e0e0e0; border-radius: 12px; padding: 30px 20px; text-align: center; cursor: pointer; transition: all 0.3s; position: relative; }
+        .dropzone:active { border-color: #E31E24; background: #fafafa; }
         .dropzone.dragover { border-color: #E31E24; background: #ffebee; }
-        .dropzone-content svg { margin-bottom: 16px; }
-        .dropzone-content p { color: #757575; margin: 0; }
+        .dropzone-content svg { margin-bottom: 12px; }
+        .dropzone-content p { color: #757575; margin: 0; font-size: 14px; }
         .preview { position: relative; }
         .preview img { max-width: 100%; border-radius: 8px; }
-        .remove-btn { position: absolute; top: 8px; right: 8px; width: 32px; height: 32px; background: #d32f2f; color: white; border: none; border-radius: 50%; font-size: 24px; cursor: pointer; line-height: 1; }
-        .remove-btn:hover { background: #c62828; }
-        .actions { display: flex; gap: 12px; }
-        .btn { padding: 12px 24px; border: none; border-radius: 4px; font-size: 16px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; }
+        .remove-btn { position: absolute; top: 8px; right: 8px; width: 36px; height: 36px; background: #d32f2f; color: white; border: none; border-radius: 50%; font-size: 24px; cursor: pointer; line-height: 1; }
+        .remove-btn:active { background: #c62828; }
+        .actions { display: flex; gap: 12px; flex-direction: column; }
+        .btn { padding: 14px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; text-decoration: none; display: block; text-align: center; }
         .btn-primary { background: #E31E24; color: white; }
-        .btn-primary:hover { background: #B71C1C; }
+        .btn-primary:active { background: #B71C1C; }
         .btn-secondary { background: #e0e0e0; color: #212121; }
-        .btn-secondary:hover { background: #bdbdbd; }
+        .btn-secondary:active { background: #bdbdbd; }
+        @media (min-width: 768px) {
+            .header h1 { font-size: 20px; }
+            .container { max-width: 900px; margin: 24px auto; padding: 0 24px; }
+            .form-box { padding: 32px; }
+            .actions { flex-direction: row; }
+            .btn { padding: 12px 24px; display: inline-block; }
+        }
     </style>
 </head>
 <body>

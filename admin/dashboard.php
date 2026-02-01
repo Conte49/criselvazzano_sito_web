@@ -27,26 +27,36 @@ if (isset($_GET['delete'])) {
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; }
-        .header { background: white; border-bottom: 1px solid #e0e0e0; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; }
-        .header h1 { color: #E31E24; font-size: 20px; }
-        .header a { color: #757575; text-decoration: none; }
-        .container { max-width: 1200px; margin: 24px auto; padding: 0 24px; }
-        .actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
-        .btn { padding: 10px 20px; background: #E31E24; color: white; text-decoration: none; border-radius: 4px; font-weight: 600; display: inline-block; }
-        .btn:hover { background: #B71C1C; }
-        .success { background: #e8f5e9; color: #2e7d32; padding: 12px; border-radius: 4px; margin-bottom: 20px; }
-        .news-table { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        table { width: 100%; border-collapse: collapse; }
-        th { background: #f5f5f5; padding: 12px; text-align: left; font-weight: 600; color: #212121; }
-        td { padding: 12px; border-top: 1px solid #e0e0e0; }
-        .news-title { font-weight: 500; color: #212121; }
-        .news-date { color: #757575; font-size: 14px; }
-        .actions-cell { display: flex; gap: 8px; }
-        .btn-small { padding: 6px 12px; font-size: 14px; border-radius: 4px; text-decoration: none; }
+        .header { background: white; border-bottom: 1px solid #e0e0e0; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .header h1 { color: #E31E24; font-size: 16px; display: flex; align-items: center; gap: 6px; }
+        .header a { color: #757575; text-decoration: none; font-size: 14px; padding: 8px 12px; }
+        .container { max-width: 100%; margin: 0; padding: 16px; }
+        .actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 12px; }
+        .actions h2 { font-size: 18px; }
+        .btn { padding: 10px 16px; background: #E31E24; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; display: inline-block; font-size: 14px; white-space: nowrap; }
+        .btn:active { background: #B71C1C; transform: scale(0.98); }
+        .success { background: #e8f5e9; color: #2e7d32; padding: 12px; border-radius: 8px; margin-bottom: 16px; font-size: 14px; }
+        .news-table { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .news-item { padding: 16px; border-bottom: 1px solid #e0e0e0; }
+        .news-item:last-child { border-bottom: none; }
+        .news-title { font-weight: 600; color: #212121; margin-bottom: 8px; font-size: 15px; }
+        .news-date { color: #757575; font-size: 13px; margin-bottom: 12px; }
+        .news-actions { display: flex; gap: 8px; }
+        .btn-small { padding: 8px 14px; font-size: 13px; border-radius: 6px; text-decoration: none; flex: 1; text-align: center; }
         .btn-edit { background: #1976d2; color: white; }
         .btn-delete { background: #d32f2f; color: white; }
-        .btn-edit:hover { background: #1565c0; }
-        .btn-delete:hover { background: #c62828; }
+        .btn-edit:active { background: #1565c0; }
+        .btn-delete:active { background: #c62828; }
+        table { display: none; }
+        @media (min-width: 768px) {
+            .header h1 { font-size: 20px; }
+            .container { max-width: 1200px; margin: 24px auto; padding: 0 24px; }
+            .news-item { display: none; }
+            table { display: table; width: 100%; border-collapse: collapse; }
+            th { background: #f5f5f5; padding: 12px; text-align: left; font-weight: 600; color: #212121; }
+            td { padding: 12px; border-top: 1px solid #e0e0e0; }
+            .actions-cell { display: flex; gap: 8px; }
+        }
     </style>
 </head>
 <body>
@@ -97,6 +107,17 @@ if (isset($_GET['delete'])) {
                     <?php endforeach; ?>
                 </tbody>
             </table>
+            
+            <?php foreach ($posts as $post): ?>
+            <div class="news-item">
+                <div class="news-title"><?= htmlspecialchars(strip_tags($post['title']['rendered'])) ?></div>
+                <div class="news-date"><?= date('d/m/Y H:i', strtotime($post['date'])) ?></div>
+                <div class="news-actions">
+                    <a href="edit.php?id=<?= $post['id'] ?>" class="btn-small btn-edit">Modifica</a>
+                    <a href="?delete=<?= $post['id'] ?>" class="btn-small btn-delete" onclick="return confirm('Elimina?')">Elimina</a>
+                </div>
+            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </body>

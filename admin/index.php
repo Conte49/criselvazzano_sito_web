@@ -29,18 +29,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; }
-        .login-container { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
-        .login-box { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); max-width: 400px; width: 100%; }
-        .logo { text-align: center; margin-bottom: 32px; }
-        .logo h1 { color: #E31E24; font-size: 24px; margin-bottom: 8px; }
+        .login-container { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 16px; }
+        .login-box { background: white; padding: 24px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); max-width: 400px; width: 100%; }
+        .logo { text-align: center; margin-bottom: 24px; }
+        .logo h1 { color: #E31E24; font-size: 20px; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 8px; }
         .logo p { color: #757575; font-size: 14px; }
-        .form-group { margin-bottom: 20px; }
-        label { display: block; margin-bottom: 8px; color: #212121; font-weight: 500; }
-        input[type="password"] { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 4px; font-size: 16px; }
+        .form-group { margin-bottom: 16px; }
+        label { display: block; margin-bottom: 8px; color: #212121; font-weight: 500; font-size: 14px; }
+        input[type="password"] { width: 100%; padding: 14px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 16px; }
         input[type="password"]:focus { outline: none; border-color: #E31E24; }
-        .btn { width: 100%; padding: 12px; background: #E31E24; color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 600; cursor: pointer; }
-        .btn:hover { background: #B71C1C; }
-        .error { background: #ffebee; color: #c62828; padding: 12px; border-radius: 4px; margin-bottom: 20px; font-size: 14px; }
+        .btn { width: 100%; padding: 14px; background: #E31E24; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; }
+        .btn:active { background: #B71C1C; transform: scale(0.98); }
+        .error { background: #ffebee; color: #c62828; padding: 12px; border-radius: 8px; margin-bottom: 16px; font-size: 14px; }
     </style>
 </head>
 <body>

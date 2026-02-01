@@ -34,14 +34,23 @@
 </template>
 
 <script>
-import posts from '../data/posts.json'
-import media from '../data/media.json'
-
 export default {
   data() {
     return {
-      posts,
-      media
+      posts: [],
+      media: []
+    }
+  },
+  async mounted() {
+    try {
+      const [postsRes, mediaRes] = await Promise.all([
+        fetch('/admin/get-data.php?type=posts'),
+        fetch('/admin/get-data.php?type=media')
+      ])
+      this.posts = await postsRes.json()
+      this.media = await mediaRes.json()
+    } catch (error) {
+      console.error('Errore caricamento dati:', error)
     }
   },
   computed: {

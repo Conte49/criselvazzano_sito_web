@@ -67,8 +67,6 @@
 </template>
 
 <script>
-import posts from '../data/posts.json'
-import media from '../data/media.json'
 import Icon from '../components/Icon.vue'
 
 export default {
@@ -84,8 +82,20 @@ export default {
         { id: 6, icon: 'emergency', title: 'Emergenze', description: 'Preparazione e risposta alle emergenze' },
         { id: 7, icon: 'globe', title: 'Cooperazione Internazionale', description: 'Solidarietà oltre i confini' }
       ],
-      posts,
-      media
+      posts: [],
+      media: []
+    }
+  },
+  async mounted() {
+    try {
+      const [postsRes, mediaRes] = await Promise.all([
+        fetch('/admin/get-data.php?type=posts'),
+        fetch('/admin/get-data.php?type=media')
+      ])
+      this.posts = await postsRes.json()
+      this.media = await mediaRes.json()
+    } catch (error) {
+      console.error('Errore caricamento dati:', error)
     }
   },
   computed: {

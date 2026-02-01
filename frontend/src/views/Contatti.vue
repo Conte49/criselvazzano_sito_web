@@ -57,11 +57,11 @@
           <div class="contact-form">
             <h2>Inviaci un Messaggio</h2>
             <form @submit.prevent="submitForm">
-              <input type="text" placeholder="Nome" required>
-              <input type="email" placeholder="Email" required>
-              <input type="text" placeholder="Oggetto" required>
-              <textarea placeholder="Messaggio" rows="6" required></textarea>
-              <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+              <input v-model="form.nome" type="text" placeholder="Nome" required>
+              <input v-model="form.email" type="email" placeholder="Email" required>
+              <input v-model="form.oggetto" type="text" placeholder="Oggetto" required>
+              <textarea v-model="form.messaggio" placeholder="Messaggio" rows="6" required></textarea>
+              <button type="submit" class="btn btn-primary">Invia via WhatsApp</button>
             </form>
           </div>
         </div>
@@ -75,9 +75,21 @@ import Icon from '../components/Icon.vue'
 
 export default {
   components: { Icon },
+  data() {
+    return {
+      form: {
+        nome: '',
+        email: '',
+        oggetto: '',
+        messaggio: ''
+      }
+    }
+  },
   methods: {
     submitForm() {
-      alert('Funzionalità in sviluppo')
+      const testo = `*Nuovo messaggio dal sito*\n\n*Nome:* ${this.form.nome}\n*Email:* ${this.form.email}\n*Oggetto:* ${this.form.oggetto}\n\n*Messaggio:*\n${this.form.messaggio}`
+      const url = `https://wa.me/393409977463?text=${encodeURIComponent(testo)}`
+      window.open(url, '_blank')
     }
   }
 }

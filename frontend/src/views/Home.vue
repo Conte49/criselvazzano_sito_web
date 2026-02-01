@@ -46,10 +46,10 @@
         <div class="news-grid">
           <router-link :to="`/news/${post.id}`" class="news-card" v-for="post in latestNews" :key="post.id">
             <div class="news-image" v-if="post.featured_media">
-              <img :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered" loading="lazy">
+              <img :src="getMediaUrl(post.featured_media)" :alt="post.title.rendered" loading="lazy" @error="$event.target.src='/src/assets/images/logo-cri.png'; $event.target.style.objectFit='contain'; $event.target.style.padding='40px'; $event.target.style.background='#f5f5f5'">
             </div>
             <div class="news-image placeholder" v-else>
-              <Icon name="medical" :size="64" color="#E31E24" />
+              <img src="/src/assets/images/logo-cri.png" alt="CRI Selvazzano" style="object-fit: contain; padding: 40px; background: #f5f5f5;">
             </div>
             <div class="news-content">
               <div class="news-date">{{ formatDate(post.date) }}</div>

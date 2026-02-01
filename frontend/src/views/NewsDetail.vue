@@ -1,7 +1,7 @@
 <template>
   <div class="news-detail" v-if="post">
     <article class="article">
-      <div class="article-header" v-if="post.featured_media" :style="{ backgroundImage: `url(${getMediaUrl(post.featured_media)})` }">
+      <div class="article-header" v-if="hasValidImage" :style="{ backgroundImage: `url(${getMediaUrl(post.featured_media)})` }">
         <div class="overlay"></div>
         <div class="container">
           <div class="header-content">
@@ -57,6 +57,9 @@ export default {
         content = content.replace(imgRegex, '')
       }
       return content
+    },
+    hasValidImage() {
+      return this.post?.featured_media && this.getMediaUrl(this.post.featured_media)
     }
   },
   methods: {

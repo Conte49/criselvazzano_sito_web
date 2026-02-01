@@ -1,0 +1,925 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CMSMasters Donations 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-09 12:08+0200\n"
+"PO-Revision-Date: 2015-06-09 12:09+0200\n"
+"Last-Translator: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cmsms-donations.php:121
+msgid "* This field is required"
+msgstr ""
+
+#: cmsms-donations.php:122
+msgid "* Please select an option"
+msgstr ""
+
+#: cmsms-donations.php:123
+msgid "* This checkbox is required"
+msgstr ""
+
+#: cmsms-donations.php:124
+msgid "* Minimum"
+msgstr ""
+
+#: cmsms-donations.php:125
+msgid "* Maximum"
+msgstr ""
+
+#: cmsms-donations.php:126
+msgid " characters allowed"
+msgstr ""
+
+#: cmsms-donations.php:127
+msgid "* Invalid email address"
+msgstr ""
+
+#: cmsms-donations.php:128
+msgid "* Invalid number"
+msgstr ""
+
+#: cmsms-donations.php:129
+msgid "* Invalid URL"
+msgstr ""
+
+#: cmsms-donations.php:130
+msgid "* Numbers and spaces only"
+msgstr ""
+
+#: cmsms-donations.php:131
+msgid "* Letters and spaces only"
+msgstr ""
+
+#: cmsms-donations.php:145
+#: framework/admin/cmsms-donations-settings.php:537
+msgid "Donations Settings"
+msgstr ""
+
+#: cmsms-donations.php:145
+msgid "Settings"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:37
+msgid "General"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:42
+msgid "Donations Submit Form Page"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:43
+msgid "Choose the page where you want to show donations submit form."
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:50
+msgid "Global Donations Target"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:51
+msgid "The amount of money you would like to collect.<br /> If empty, summarizes the targets of all campaigns."
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:60
+msgid "Donations Currency Symbol"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:66
+msgid "Currency Symbol Position"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:70
+msgid "Before number"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:71
+msgid "After number"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:77
+msgid "Confirm Donations?"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:78
+msgid "Show donation confirm screen"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:79
+msgid "If checked, donation confirmation screen will be showen after from submition."
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:85
+msgid "Form"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:90
+msgid "e.g: 5,10,20,50,100"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:91
+msgid "Donation Amount"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:92
+msgid "Enter the variants of donation amounts separated by commas"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:97
+msgid "Payment Method"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:98
+msgid "If hidden - online payment method will be used by default"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:101
+#: framework/admin/cmsms-donations-settings.php:112
+#: framework/admin/cmsms-donations-settings.php:123
+#: framework/admin/cmsms-donations-settings.php:135
+#: framework/admin/cmsms-donations-settings.php:158
+#: framework/admin/cmsms-donations-settings.php:170
+#: framework/admin/cmsms-donations-settings.php:182
+#: framework/admin/cmsms-donations-settings.php:194
+#: framework/admin/cmsms-donations-settings.php:206
+#: framework/admin/cmsms-donations-settings.php:218
+#: framework/admin/cmsms-donations-settings.php:230
+#: framework/admin/cmsms-donations-settings.php:242
+#: framework/admin/cmsms-donations-settings.php:254
+#: framework/admin/cmsms-donations-settings.php:266
+#: framework/admin/cmsms-donations-settings.php:278
+msgid "Required"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:102
+#: framework/admin/cmsms-donations-settings.php:113
+#: framework/admin/cmsms-donations-settings.php:125
+#: framework/admin/cmsms-donations-settings.php:137
+#: framework/admin/cmsms-donations-settings.php:148
+#: framework/admin/cmsms-donations-settings.php:160
+#: framework/admin/cmsms-donations-settings.php:172
+#: framework/admin/cmsms-donations-settings.php:184
+#: framework/admin/cmsms-donations-settings.php:196
+#: framework/admin/cmsms-donations-settings.php:208
+#: framework/admin/cmsms-donations-settings.php:220
+#: framework/admin/cmsms-donations-settings.php:232
+#: framework/admin/cmsms-donations-settings.php:244
+#: framework/admin/cmsms-donations-settings.php:256
+#: framework/admin/cmsms-donations-settings.php:268
+#: framework/admin/cmsms-donations-settings.php:280
+msgid "Hide"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:108
+msgid "Payment Recurrence"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:109
+msgid "If hidden - only onetime payment will be available. <br />Not working for <code>stripe</code> payment gateway."
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:119
+msgid "Payment Campaign"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:124
+#: framework/admin/cmsms-donations-settings.php:136
+#: framework/admin/cmsms-donations-settings.php:147
+#: framework/admin/cmsms-donations-settings.php:159
+#: framework/admin/cmsms-donations-settings.php:171
+#: framework/admin/cmsms-donations-settings.php:183
+#: framework/admin/cmsms-donations-settings.php:195
+#: framework/admin/cmsms-donations-settings.php:207
+#: framework/admin/cmsms-donations-settings.php:219
+#: framework/admin/cmsms-donations-settings.php:231
+#: framework/admin/cmsms-donations-settings.php:243
+#: framework/admin/cmsms-donations-settings.php:255
+#: framework/admin/cmsms-donations-settings.php:267
+#: framework/admin/cmsms-donations-settings.php:279
+msgid "Optional"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:131
+msgid "Message"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:143
+msgid "Anonymous Donation"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:154
+msgid "First Name"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:166
+msgid "Last Name"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:178
+msgid "Email"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:190
+msgid "Company"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:202
+msgid "Address"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:214
+msgid "City"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:226
+msgid "State / Province"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:238
+msgid "Postal / Zip Code"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:250
+msgid "Country"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:262
+msgid "Phone Number"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:274
+msgid "Website"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:286
+msgid "Emails"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:291
+msgid "Donator Email Template"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:292
+msgid "Enter the content for the email sent to donators or leave blank to use the default message."
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:292
+msgid "The following tags can be used to insert data dynamically:"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:292
+msgid "The donator firstname"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:292
+msgid "The donator lastname"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:292
+msgid "The donation date"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:292
+msgid "The donation amount"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:474
+msgid "Choose Image"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:474
+msgid "Insert Image"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:477
+msgid "Remove"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:513
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/cmsms-donations-settings.php:538
+#: framework/posttype/cmsms-donations-posttype.php:16
+#: framework/posttype/cmsms-donations-posttype.php:18
+msgid "Donations"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:156
+msgid "Validated"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:158
+#: framework/posttype/cmsms-donations-posttype.php:393
+#: inc/cmsms-donations-payments.php:55
+msgid "Pending Payment"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:160
+#: framework/posttype/cmsms-donations-posttype.php:394
+#: inc/cmsms-donations-payments.php:65
+msgid "Pending Offline Payment"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:162
+msgid "Pending"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:204
+#: framework/posttype/cmsms-donations-posttype.php:174
+msgid "Weekly"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:209
+#: framework/posttype/cmsms-donations-posttype.php:176
+msgid "Monthly"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:214
+#: framework/posttype/cmsms-donations-posttype.php:178
+msgid "Yearly"
+msgstr ""
+
+#: framework/function/cmsms-donations-template-function.php:274
+msgid "None"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:23
+#: framework/posttype/cmsms-campaigns-posttype.php:25
+msgid "Campaigns"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:24
+#: framework/posttype/cmsms-donations-posttype.php:99
+#: framework/template/content-confirm-donation.php:36
+msgid "Campaign"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:26
+msgid "All Campaigns"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:27
+#: framework/posttype/cmsms-donations-posttype.php:20
+msgid "Add New"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:28
+msgid "Add New Campaign"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:29
+msgid "Edit Campaign"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:30
+msgid "New Campaign"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:31
+msgid "View Campaign"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:32
+msgid "Search Campaigns"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:33
+msgid "No campaigns found"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:34
+msgid "No campaigns found in Trash"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:79
+msgid "Campaign Categories"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:80
+msgid "Campaign Category"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:90
+msgid "Campaign Tags"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:91
+msgid "Campaign Tag"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:112
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:113
+msgid "Target"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:114
+msgid "Funds"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:115
+msgid "Categories"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:116
+#: framework/posttype/cmsms-donations-posttype.php:100
+msgid "Date"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:117
+msgid "Comments"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:118
+msgid "Order"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:171
+msgid "No Thumbnail"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:205
+msgid "count"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:207
+msgid "to go"
+msgstr ""
+
+#: framework/posttype/cmsms-campaigns-posttype.php:228
+msgid "Uncategorized"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:17
+msgid "Donation"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:19
+msgid "All Donations"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:21
+msgid "Add New Donation"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:22
+msgid "Edit Donation"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:23
+msgid "New Donation"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:24
+msgid "View Donation"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:25
+msgid "Search Donations"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:26
+msgid "No donations found"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:27
+msgid "No donations found in Trash"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:95
+#: framework/template/content-confirm-donation.php:22
+msgid "Amount"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:96
+#: framework/template/content-confirm-donation.php:28
+msgid "Recurrence"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:97
+#: framework/template/content-confirm-donation.php:47
+msgid "Donator"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:98
+msgid "Donator personal info visibility"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:101
+msgid "Payment status"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:172
+msgid "Not recurring"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:194
+msgid "No information"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:230
+msgid "Donator's personal info is hidden"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:232
+msgid "Donator's personal info is visible"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:247
+msgid "No specific campaign"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:283
+msgid "Approve payment"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:369
+#, php-format
+msgid "%s payments approved"
+msgstr ""
+
+#: framework/posttype/cmsms-donations-posttype.php:371
+#, php-format
+msgid "%s payment approved"
+msgstr ""
+
+#: framework/template/content-confirm-donation.php:17
+msgid "Confirm your"
+msgstr ""
+
+#: framework/template/content-confirm-donation.php:42
+msgid "Received"
+msgstr ""
+
+#: framework/template/content-confirm-donation.php:43
+msgid "ago"
+msgstr ""
+
+#: framework/template/content-confirm-donation.php:55
+msgid "This donation is anonymous"
+msgstr ""
+
+#: framework/template/content-confirm-donation.php:60
+msgid "Donator message"
+msgstr ""
+
+#: framework/template/content-donator-email.php:17
+msgid "Campaign:"
+msgstr ""
+
+#: framework/template/content-donator-email.php:19
+msgid "Amount:"
+msgstr ""
+
+#: framework/template/content-donator-email.php:21
+msgid "Recurring donation:"
+msgstr ""
+
+#: framework/template/donation-submit.php:26
+msgid "Donation details"
+msgstr ""
+
+#: framework/template/donation-submit.php:54
+msgid "Donator details"
+msgstr ""
+
+#: framework/template/donation-submitted.php:19
+msgid "Donation validated successfully."
+msgstr ""
+
+#: framework/template/donation-submitted.php:30
+msgid ""
+"Donation submitted successfully.\n"
+"Your donation will be published as soon as we receive the payment gateway validation (it can take several minutes)."
+msgstr ""
+
+#: framework/template/donation-submitted.php:41
+msgid ""
+"Donation submitted successfully.\n"
+"Your donation will be published once payment is received.\n"
+"You choose an offline payment method, so please follow the guide below to send us your payment."
+msgstr ""
+
+#: framework/template/donation-submitted.php:61
+msgid "Make Another Donation"
+msgstr ""
+
+#: inc/cmsms-donations-emails.php:40
+#, php-format
+msgid "Your Donation \"%s\""
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:153
+msgid "Proceed to payment"
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:155
+msgid "Submit donation"
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:174
+msgid "Payment Gateways"
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:179
+msgid "Currency Code"
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:180
+msgid "Enter the currency code you wish to use. <br />E.g. for US dollars enter <code>USD</code>. <br />Your gateway must support your input currency for payments to work."
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:186
+msgid "Offline Payment Instructions"
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:187
+msgid "Please enter the instructions for your donators to send you the offline payments (BACS, cheque etc...)"
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:193
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/cmsms-donations-payments.php:194
+msgid "Choose the gateway to use for collecting funds. <br />Depending on the gateway you choose you should ensure your donation form page is served over HTTPS. <br />You can use <a href='http://wordpress.org/plugins/wordpress-https/'>WordPress HTTPS</a> to do this. <br />Please note: stripe gateway don't allow recurring payments."
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-edit-donation.php:45
+msgid "Invalid donation"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-edit-donation.php:87
+msgid "Update donation"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-edit-donation.php:117
+msgid "Your changes have been saved."
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-edit-donation.php:118
+msgid "View donation"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:35
+#: inc/forms/cmsms-donations-form-submit-donation.php:475
+msgid "Submit Donation"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:41
+msgid "Confirmation"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:47
+msgid "Done"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:84
+msgid "or enter your own donation amount, e.g: 85"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:90
+msgid "Select the payment method"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:95
+msgid "Online payment"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:96
+msgid "Offline payment"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:103
+msgid "Select the payment interval"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:108
+msgid "One-time"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:118
+msgid "Select the campaign you would like to contribute to"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:130
+msgid "Your custom message text..."
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:135
+msgid "Anonymous donation?"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:138
+msgid "Check this box to hide your personal info in our donators list"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:146
+msgid "First name"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:154
+msgid "Last name"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:165
+msgid "email@website.com"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:202
+msgid "Postal / Zip code"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:218
+msgid "Phone number"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:221
+msgid "area code + phone number"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:229
+msgid "http://"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:394
+msgid "Confirm donation"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:474
+msgid "Edit donation"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:561
+msgid "Donation #"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:718
+#, php-format
+msgid "%s must be a valid number. Don't include currency symbol."
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:726
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: inc/forms/cmsms-donations-form-submit-donation.php:755
+#, php-format
+msgid "%s - (Target: %s)"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:25
+msgid "PayPal Checkout"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:32
+msgid "PayPal Email"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:33
+msgid "Your PayPal email address."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:40
+msgid "PayPal Identity Token"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:41
+msgid "Optionally enable 'Payment Data Transfer' (Profile > Website Payment Preferences) and then copy your identity token here. <br />This will allow payments to be verified without the need for PayPal IPN."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:48
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:49
+msgid "Enable PayPal Sandbox (use for testing)"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:51
+#: inc/gateways/cmsms-donations-stripe.php:33
+msgid "Yes"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:52
+#: inc/gateways/cmsms-donations-stripe.php:34
+msgid "No"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:148
+msgid "New recurring donation"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:297
+#: inc/gateways/cmsms-donations-paypal.php:337
+#: inc/gateways/cmsms-donations-stripe.php:145
+#, php-format
+msgid "Payment has been received in full for donation #%d - this donation has been published."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:345
+#, php-format
+msgid "PayPal payment is pending for donation #%d - this donation has *not* been automatically approved."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-paypal.php:350
+#, php-format
+msgid "The payment for donation #%d was reversed. Please check this donation/payment and change the status manually if need be."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:23
+msgid "Stripe Checkout"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:30
+msgid "Test Mode"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:31
+msgid "Enable Test Mode"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:42
+msgid "Secret Key"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:43
+#: inc/gateways/cmsms-donations-stripe.php:51
+msgid "Get your API keys from your stripe account."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:50
+msgid "Publishable Key"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:58
+msgid "Company Name"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:59
+msgid "Custom company name for stripe payment form."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:66
+msgid "Description"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:67
+msgid "Enter default description for stripe payment form."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:74
+msgid "Logo Image"
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:75
+msgid "Choose a square image of your organization or logo for stripe payment form. <br />The recommended minimum size is 128x128px."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:95
+msgid "Please make sure your card details have been entered correctly and your browser supports JavaScript."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:118
+msgid "There was a problem connecting to the gateway."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:123
+msgid "Empty response."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:133
+msgid "Invalid response."
+msgstr ""
+
+#: inc/gateways/cmsms-donations-stripe.php:199
+msgid "Donate"
+msgstr ""
+
+#: inc/gateways/abstract/abstract-cmsms-donations-gateways.php:77
+#, php-format
+msgid ""
+"Hi,\n"
+"\n"
+"%s\n"
+"\n"
+"View this donation: %s"
+msgstr ""
+
+#: inc/gateways/abstract/abstract-cmsms-donations-gateways.php:80
+#, php-format
+msgid "Payment for donation #%d has been received"
+msgstr ""
+

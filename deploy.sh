@@ -3,7 +3,7 @@
 # Script di deploy per new.criselvazzanodentro.it
 # Esegui con: ./deploy.sh
 
-echo "🚀 Inizio deploy su new.criselvazzanodentro.it"
+echo "🚀 Inizio deploy su www.criselvazzanodentro.it"
 
 # Build del progetto
 echo "📦 Build del frontend..."
@@ -24,9 +24,9 @@ cd ..
 
 lftp -u criselva,xY1uzS452k new.criselvazzanodentro.it <<EOF
 set ftp:ssl-allow no
-cd new.criselvazzanodentro.it
-mirror -R --delete --verbose frontend/dist .
-mirror -R --delete --verbose admin admin
+cd www.criselvazzanodentro.it
+mirror -R --verbose frontend/dist .
+mirror -R --verbose admin admin
 mkdir -p data
 put -O data frontend/src/data/posts.json
 put -O data frontend/src/data/media.json
@@ -35,8 +35,8 @@ EOF
 
 if [ $? -eq 0 ]; then
     echo "✅ Deploy completato con successo!"
-    echo "🌐 Sito disponibile su: http://new.criselvazzanodentro.it"
-    echo "🔐 Admin disponibile su: http://new.criselvazzanodentro.it/admin/"
+    echo "🌐 Sito disponibile su: https://www.criselvazzanodentro.it"
+    echo "🔐 Admin disponibile su: https://www.criselvazzanodentro.it/admin/"
 else
     echo "❌ Errore durante l'upload FTP"
     exit 1

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="<?php require_once 'config.php'; requireLogin(); echo htmlspecialchars(generateCSRFToken()); ?>">
     <title>Crea Nuova News - CRI Selvazzano</title>
     <style>
         * {
@@ -405,6 +406,7 @@
             formData.append('image', selectedImage);
             formData.append('title', titleInput.value);
             formData.append('content', contentInput.value);
+            formData.append('csrf_token', document.querySelector('meta[name="csrf-token"]').content);
 
             publishBtn.disabled = true;
             publishBtn.textContent = 'Pubblicazione...';
@@ -455,6 +457,7 @@
                 const formData = new FormData();
                 formData.append('text', text);
                 formData.append('type', type);
+                formData.append('csrf_token', document.querySelector('meta[name="csrf-token"]').content);
 
                 const response = await fetch('improve-text.php', {
                     method: 'POST',

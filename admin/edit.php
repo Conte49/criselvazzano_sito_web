@@ -18,6 +18,11 @@ if ($editMode) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $csrfToken = $_POST['csrf_token'] ?? '';
+    if (!validateCSRFToken($csrfToken)) {
+        die('CSRF token non valido');
+    }
+    
     $title = trim($_POST['title'] ?? '');
     $content = $_POST['content'] ?? '';
     $excerpt = trim($_POST['excerpt'] ?? '');
@@ -150,6 +155,7 @@ if ($post && $post['featured_media']) {
     <div class="container">
         <div class="form-box">
             <form method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="<?= htmlspecialchars(generateCSRFToken()) ?>">
                 <div class="form-group">
                     <label for="title">Titolo *</label>
                     <input type="text" id="title" name="title" value="<?= htmlspecialchars($post['title']['rendered'] ?? '') ?>" required>

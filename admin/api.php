@@ -7,6 +7,12 @@ header('Content-Type: application/json');
 $action = $_GET['action'] ?? '';
 
 if ($action === 'create' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+    $csrfToken = $_POST['csrf_token'] ?? '';
+    if (!validateCSRFToken($csrfToken)) {
+        echo json_encode(['success' => false, 'message' => 'CSRF token non valido']);
+        exit;
+    }
+    
     $title = trim($_POST['title'] ?? '');
     $content = $_POST['content'] ?? '';
     

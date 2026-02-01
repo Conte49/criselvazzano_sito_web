@@ -14,6 +14,12 @@ if (file_exists(__DIR__ . '/.env')) {
 
 $text = $_POST['text'] ?? '';
 $type = $_POST['type'] ?? 'content'; // title o content
+$csrfToken = $_POST['csrf_token'] ?? '';
+
+if (!validateCSRFToken($csrfToken)) {
+    echo json_encode(['success' => false, 'message' => 'CSRF token non valido']);
+    exit;
+}
 
 if (!$text) {
     echo json_encode(['success' => false, 'message' => 'Testo mancante']);

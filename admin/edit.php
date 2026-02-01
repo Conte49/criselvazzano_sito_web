@@ -103,7 +103,7 @@ if ($post && $post['featured_media']) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $editMode ? 'Modifica' : 'Nuova' ?> News - CRI Selvazzano</title>
-    <script src="https://cdn.tiny.cloud/1/wbab0bqy4l3fwlmzq0jpbdjsd61ut94ehw2m1qewnxlv54l1/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/48twqtytta6jqdwmsfzitq8h5s0sh51rnk7hmgd0t6os5jr7/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; }

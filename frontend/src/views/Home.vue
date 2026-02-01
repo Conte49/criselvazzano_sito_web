@@ -175,19 +175,22 @@ export default {
 }
 
 .cta-section {
-  background: var(--cri-light-gray);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/src/assets/images/sostieni.jpg');
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
 .cta-content h2 {
   font-size: 2.5rem;
   margin-bottom: 16px;
+  color: white;
 }
 
 .cta-content p {
   font-size: 1.25rem;
   margin-bottom: 32px;
-  color: var(--cri-text-light);
+  color: white;
 }
 
 .news-grid {

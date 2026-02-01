@@ -174,7 +174,7 @@ if ($post && $post['featured_media']) {
                     <?php if ($currentImage): ?>
                         <div class="current-image">
                             <p style="margin-top: 12px; color: #757575; font-size: 14px;">Immagine attuale:</p>
-                            <img src="<?= htmlspecialchars($currentImage) ?>" alt="Current" style="max-width: 200px; border-radius: 4px; margin-top: 8px;">
+                            <img src="..<?= htmlspecialchars($currentImage) ?>" alt="Current" style="max-width: 200px; border-radius: 4px; margin-top: 8px;">
                         </div>
                     <?php endif; ?>
                 </div>

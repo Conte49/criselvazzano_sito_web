@@ -73,7 +73,7 @@
                 <li>Supporto alle famiglie</li>
                 <li>Orientamento ai servizi</li>
               </ul>
-              <p class="service-note">Servizio gratuito per la comunità</p>
+              <p class="service-note">Supporto gratuito per la comunità</p>
               <a href="https://wa.me/393801720578?text=Buongiorno,%20vorrei%20informazioni%20sullo%20Sportello%20Sociale" target="_blank" class="btn btn-primary">Info su WhatsApp</a>
             </div>
           </div>

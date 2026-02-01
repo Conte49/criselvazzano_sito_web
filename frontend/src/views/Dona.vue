@@ -27,7 +27,7 @@
             </div>
             <div class="cf-box">
               <div class="cf-label">Codice Fiscale CRI</div>
-              <div class="cf-code">00891381007</div>
+              <div class="cf-code">04776880280</div>
             </div>
           </div>
 
@@ -47,9 +47,9 @@
               <div class="icon">
                 <Icon name="card" :size="48" color="#E31E24" />
               </div>
-              <h3>Carta di Credito</h3>
+              <h3>PayPal</h3>
               <p>Dona online in modo sicuro</p>
-              <button class="btn btn-primary">Dona Ora</button>
+              <a href="https://www.paypal.com/donate?token=KT5tm82R_Dt7w5PLCryLQx2rNrJo45wXVBplI2JaOosS7QaZKu0828s_HClLXX1KjTgzzsFzGw5mLHUt" target="_blank" class="btn btn-primary">Dona con PayPal</a>
             </div>
           </div>
         </div>

@@ -1,0 +1,8 @@
+# Protezione cartella admin
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Redirect index
+DirectoryIndex index.php

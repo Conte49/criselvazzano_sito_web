@@ -309,7 +309,9 @@
                 <label for="title">Titolo</label>
                 <div style="display: flex; gap: 8px;">
                     <input type="text" id="title" placeholder="Scrivi un titolo accattivante..." required style="flex: 1;">
-                    <button type="button" onclick="improveText('title')" class="btn-ai" title="Migliora con AI">✨</button>
+                    <button type="button" onclick="improveText('title')" class="btn-ai" title="Migliora con AI">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </button>
                 </div>
             </div>
 
@@ -317,7 +319,10 @@
                 <label for="content">Descrizione</label>
                 <div style="display: flex; flex-direction: column; gap: 8px;">
                     <textarea id="content" placeholder="Racconta la tua storia..." required></textarea>
-                    <button type="button" onclick="improveText('content')" class="btn-ai" style="align-self: flex-end;">✨ Migliora testo</button>
+                    <button type="button" onclick="improveText('content')" class="btn-ai" style="align-self: flex-end; display: flex; align-items: center; gap: 6px;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        Migliora testo
+                    </button>
                 </div>
                 <div class="char-count"><span id="charCount">0</span> caratteri</div>
             </div>
@@ -439,10 +444,12 @@
                 return;
             }
 
-            const btn = event.target;
-            const originalText = btn.textContent;
+            const btn = event.target.closest('button');
+            const originalHTML = btn.innerHTML;
             btn.disabled = true;
-            btn.textContent = type === 'title' ? '⏳' : '⏳ Miglioramento...';
+            btn.innerHTML = type === 'title' 
+                ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="white"><circle cx="12" cy="12" r="10" opacity="0.3"/><path d="M12 6v6l4 2"/></svg>'
+                : '<svg width="16" height="16" viewBox="0 0 24 24" fill="white"><circle cx="12" cy="12" r="10" opacity="0.3"/><path d="M12 6v6l4 2"/></svg> Miglioramento...';
 
             try {
                 const formData = new FormData();
@@ -457,13 +464,15 @@
                 const result = await response.json();
 
                 if (result.success) {
-                    input.value = result.text;
+                    // Rimuovi tutte le virgolette
+                    let improvedText = result.text.replace(/^"|"$/g, '').replace(/^'|'$/g, '').trim();
+                    input.value = improvedText;
                     if (type === 'content') {
-                        charCount.textContent = result.text.length;
-                        const excerpt = result.text.substring(0, 100) + (result.text.length > 100 ? '...' : '');
+                        charCount.textContent = improvedText.length;
+                        const excerpt = improvedText.substring(0, 100) + (improvedText.length > 100 ? '...' : '');
                         previewExcerpt.textContent = excerpt;
                     } else {
-                        previewTitle.textContent = result.text;
+                        previewTitle.textContent = improvedText;
                     }
                     updatePublishButton();
                 } else {
@@ -473,7 +482,7 @@
                 alert('Errore durante il miglioramento del testo');
             } finally {
                 btn.disabled = false;
-                btn.textContent = originalText;
+                btn.innerHTML = originalHTML;
             }
         }
     </script>

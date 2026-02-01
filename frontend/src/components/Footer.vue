@@ -34,6 +34,7 @@
           <ul>
             <li>CF: 04776880280</li>
             <li>P.IVA: 04776880280</li>
+            <li>SDI: XL13LG4</li>
             <li>IBAN: IT88N0306909606100000078845</li>
           </ul>
         </div>

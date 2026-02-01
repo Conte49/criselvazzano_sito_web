@@ -25,7 +25,16 @@
           </ul>
 
           <h3>Cosa facciamo</h3>
-          <p>Il nostro Comitato opera attraverso 6 obiettivi strategici che guidano tutte le nostre attività quotidiane, dalla salute all'emergenza, dal sociale ai giovani.</p>
+          <p>Il nostro Comitato opera attraverso 7 obiettivi strategici che guidano tutte le nostre attività quotidiane:</p>
+          <ul>
+            <li><strong>Organizzazione:</strong> Rafforzare la struttura e la governance</li>
+            <li><strong>Volontari:</strong> Promuovere e valorizzare il volontariato</li>
+            <li><strong>Principi e Valori:</strong> Diffondere i principi fondamentali</li>
+            <li><strong>Salute:</strong> Tutelare e promuovere la salute e il benessere</li>
+            <li><strong>Inclusione Sociale:</strong> Supportare le persone vulnerabili</li>
+            <li><strong>Emergenze:</strong> Preparazione e risposta alle emergenze</li>
+            <li><strong>Cooperazione Internazionale:</strong> Solidarietà oltre i confini</li>
+          </ul>
         </div>
       </div>
     </section>

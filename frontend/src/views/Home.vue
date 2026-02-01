@@ -16,7 +16,7 @@
     <section class="section services">
       <div class="container">
         <h2 class="section-title">I Nostri Obiettivi</h2>
-        <p class="section-subtitle">Lavoriamo ogni giorno per la comunità attraverso 6 obiettivi strategici</p>
+        <p class="section-subtitle">Lavoriamo ogni giorno per la comunità attraverso 7 obiettivi strategici</p>
         
         <div class="services-grid">
           <div class="service-card" v-for="os in obiettivi" :key="os.id">
@@ -76,12 +76,13 @@ export default {
   data() {
     return {
       obiettivi: [
-        { id: 1, icon: 'medical', title: 'Salute', description: 'Assistenza sanitaria e primo soccorso' },
-        { id: 2, icon: 'handshake', title: 'Sociale', description: 'Supporto alle persone vulnerabili' },
-        { id: 3, icon: 'emergency', title: 'Emergenza', description: 'Interventi in situazioni di crisi' },
-        { id: 4, icon: 'heart', title: 'Principi', description: 'Diffusione dei valori della CRI' },
-        { id: 5, icon: 'users', title: 'Giovani', description: 'Educazione e formazione' },
-        { id: 6, icon: 'growth', title: 'Sviluppo', description: 'Crescita e innovazione' }
+        { id: 1, icon: 'users', title: 'Organizzazione', description: 'Rafforzare la struttura e la governance' },
+        { id: 2, icon: 'heart', title: 'Volontari', description: 'Promuovere e valorizzare il volontariato' },
+        { id: 3, icon: 'growth', title: 'Principi e Valori', description: 'Diffondere i principi fondamentali' },
+        { id: 4, icon: 'medical', title: 'Salute', description: 'Tutelare e promuovere la salute' },
+        { id: 5, icon: 'handshake', title: 'Inclusione Sociale', description: 'Supportare le persone vulnerabili' },
+        { id: 6, icon: 'emergency', title: 'Emergenze', description: 'Preparazione e risposta alle emergenze' },
+        { id: 7, icon: 'globe', title: 'Cooperazione Internazionale', description: 'Solidarietà oltre i confini' }
       ],
       posts,
       media

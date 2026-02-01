@@ -25,8 +25,8 @@ cd ..
 lftp -u criselva,xY1uzS452k new.criselvazzanodentro.it <<EOF
 set ftp:ssl-allow no
 cd www.criselvazzanodentro.it
-mirror -R --verbose --exclude data/ frontend/dist .
-mirror -R --verbose admin admin
+mirror -R --only-newer --verbose --exclude data/ frontend/dist .
+mirror -R --only-newer --verbose admin admin
 bye
 EOF
 

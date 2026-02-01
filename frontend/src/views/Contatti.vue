@@ -49,7 +49,7 @@
               </div>
               <div>
                 <h3>Orari</h3>
-                <p>Lunedì - Venerdì: 9:00 - 18:00<br>Sabato: 9:00 - 13:00</p>
+                <p>Lunedì - Venerdì: 9:00 - 18:00</p>
               </div>
             </div>
           </div>

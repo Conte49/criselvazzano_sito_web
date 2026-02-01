@@ -3,8 +3,8 @@ session_start();
 
 // Configurazione
 define('ADMIN_PASSWORD_HASH', '$2y$10$9JW0Aivx86CahhrZltWAY.MvC3Dkq/WXa86Mad1zoCrdWv9cHg5tS'); // password: CRI2025!Selvazzano
-define('DATA_DIR', __DIR__ . '/../frontend/src/data');
-define('IMAGES_DIR', __DIR__ . '/../frontend/public/news-images');
+define('DATA_DIR', __DIR__ . '/../data');
+define('IMAGES_DIR', __DIR__ . '/../news-images');
 define('POSTS_FILE', DATA_DIR . '/posts.json');
 define('MEDIA_FILE', DATA_DIR . '/media.json');
 

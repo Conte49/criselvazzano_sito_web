@@ -27,6 +27,9 @@ set ftp:ssl-allow no
 cd new.criselvazzanodentro.it
 mirror -R --delete --verbose frontend/dist .
 mirror -R --delete --verbose admin admin
+mkdir -p data
+put -O data frontend/src/data/posts.json
+put -O data frontend/src/data/media.json
 bye
 EOF
 

@@ -67,14 +67,14 @@
             </div>
             <div class="service-content">
               <h2>Sportello Sociale</h2>
-              <p>Supporto alle persone in difficoltà e distribuzione beni di prima necessità.</p>
+              <p>Punto di ascolto e accoglienza dove l'aiuto diventa realtà</p>
               <ul>
-                <li>Distribuzione alimentare</li>
-                <li>Supporto alle famiglie</li>
-                <li>Orientamento ai servizi</li>
+                <li>Ascolto attivo dei bisogni e delle vulnerabilità</li>
+                <li>Orientamento e facilitazione di accesso ai servizi</li>
+                <li>Reinserimento sociale e coinvolgimento delle persone in difficoltà</li>
               </ul>
-              <p class="service-note">Supporto gratuito per la comunità</p>
-              <a href="https://wa.me/393801720578?text=Buongiorno,%20vorrei%20informazioni%20sullo%20Sportello%20Sociale" target="_blank" class="btn btn-primary">Info su WhatsApp</a>
+              <p class="service-note">Servizio gratuito su appuntamento</p>
+              <a href="https://wa.me/393666285870?text=Buongiorno,%20vorrei%20informazioni%20sullo%20Sportello%20Sociale" target="_blank" class="btn btn-primary">Prenota: 366 628 5870</a>
             </div>
           </div>
         </div>

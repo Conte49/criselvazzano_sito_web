@@ -14,6 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (password_verify($password, ADMIN_PASSWORD_HASH)) {
         session_regenerate_id(true);
         $_SESSION['admin_logged_in'] = true;
+        generateCSRFToken(); // Genera nuovo token dopo login
         header('Location: dashboard.php');
         exit;
     } else {

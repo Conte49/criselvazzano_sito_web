@@ -22,13 +22,13 @@ define('ADMIN_PASSWORD_HASH', 'nuovo_hash_qui');
 
 ## Funzionalità
 
-- ✅ Login sicuro con password hash
-- ✅ Lista news con ricerca
-- ✅ Crea/Modifica/Elimina news
-- ✅ Upload immagine featured
-- ✅ Editor WYSIWYG (TinyMCE)
-- ✅ Genera automaticamente slug
-- ✅ Salva in posts.json e media.json
+- [x] Login sicuro con password hash
+- [x] Lista news con ricerca
+- [x] Crea/Modifica/Elimina news
+- [x] Upload immagine featured
+- [x] Editor WYSIWYG (TinyMCE)
+- [x] Genera automaticamente slug
+- [x] Salva in posts.json e media.json
 
 ## Deploy
 

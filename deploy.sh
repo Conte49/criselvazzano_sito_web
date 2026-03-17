@@ -3,22 +3,22 @@
 # Script di deploy per new.criselvazzanodentro.it
 # Esegui con: ./deploy.sh
 
-echo "🚀 Inizio deploy su www.criselvazzanodentro.it"
+echo "[DEPLOY] Inizio deploy su www.criselvazzanodentro.it"
 
 # Build del progetto
-echo "📦 Build del frontend..."
+echo "[BUILD] Build del frontend..."
 cd frontend
 npm run build
 
 if [ $? -ne 0 ]; then
-    echo "❌ Errore durante la build"
+    echo "[ERRORE] Errore durante la build"
     exit 1
 fi
 
-echo "✅ Build completata"
+echo "[OK] Build completata"
 
 # Upload via FTP
-echo "📤 Upload dei file via FTP..."
+echo "[UPLOAD] Upload dei file via FTP..."
 
 cd ..
 
@@ -31,10 +31,10 @@ bye
 EOF
 
 if [ $? -eq 0 ]; then
-    echo "✅ Deploy completato con successo!"
-    echo "🌐 Sito disponibile su: https://www.criselvazzanodentro.it"
-    echo "🔐 Admin disponibile su: https://www.criselvazzanodentro.it/admin/"
+    echo "[OK] Deploy completato con successo!"
+    echo "[INFO] Sito disponibile su: https://www.criselvazzanodentro.it"
+    echo "[INFO] Admin disponibile su: https://www.criselvazzanodentro.it/admin/"
 else
-    echo "❌ Errore durante l'upload FTP"
+    echo "[ERRORE] Errore durante l'upload FTP"
     exit 1
 fi

@@ -33,13 +33,13 @@ Il sito sarà disponibile su http://localhost:3000
 
 ## Caratteristiche
 
-- ✅ Design moderno in stile Croce Rossa
-- ✅ Responsive (mobile-first)
-- ✅ Colori ufficiali CRI (#E31E24)
-- ✅ Navigazione intuitiva
-- ✅ Sezione News con dettaglio
-- ✅ Pagine statiche (Chi Siamo, Contatti)
-- ✅ Dati importati da WordPress
+- [x] Design moderno in stile Croce Rossa
+- [x] Responsive (mobile-first)
+- [x] Colori ufficiali CRI (#E31E24)
+- [x] Navigazione intuitiva
+- [x] Sezione News con dettaglio
+- [x] Pagine statiche (Chi Siamo, Contatti)
+- [x] Dati importati da WordPress
 
 ## Tecnologie
 

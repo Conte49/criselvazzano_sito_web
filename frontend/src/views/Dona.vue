@@ -13,43 +13,44 @@
           <h2>Dona il tuo 5×1000</h2>
           <p>Destinare il 5×1000 alla Croce Rossa Italiana non costa nulla e ci permette di continuare le nostre attività sul territorio.</p>
 
-          <div class="highlight-box">
+          <div class="highlight-box reveal">
             <h3>Come donare il 5×1000</h3>
             <div class="steps-simple">
               <div class="step-simple">
-                <span class="number">1</span>
+                <span class="number" aria-hidden="true">1</span>
                 <p>Firma nel riquadro "Sostegno del volontariato"</p>
               </div>
               <div class="step-simple">
-                <span class="number">2</span>
+                <span class="number" aria-hidden="true">2</span>
                 <p>Inserisci il codice fiscale della CRI</p>
               </div>
             </div>
             <div class="cf-box">
               <div class="cf-label">Codice Fiscale CRI</div>
-              <div class="cf-code">04776880280</div>
+              <div class="cf-code" aria-label="Codice fiscale: 04776880280">04776880280</div>
             </div>
           </div>
 
           <h2>Altre modalità di donazione</h2>
           
-          <div class="donation-methods">
-            <div class="method-card">
-              <div class="icon">
-                <Icon name="bank" :size="48" color="#E31E24" />
+          <div class="donation-methods stagger-children">
+            <div class="method-card reveal">
+              <div class="method-icon" aria-hidden="true">
+                <Icon name="bank" :size="48" />
               </div>
               <h3>Bonifico Bancario</h3>
-              <p><strong>IBAN:</strong> IT88N0306909606100000078845</p>
+              <p><strong>IBAN:</strong></p>
+              <p class="iban">IT88N0306909606100000078845</p>
               <p><strong>Intestato a:</strong> CRI - Comitato di Selvazzano Dentro - ODV</p>
             </div>
 
-            <div class="method-card">
-              <div class="icon">
-                <Icon name="card" :size="48" color="#E31E24" />
+            <div class="method-card reveal">
+              <div class="method-icon" aria-hidden="true">
+                <Icon name="card" :size="48" />
               </div>
               <h3>PayPal</h3>
-              <p>Dona online in modo sicuro</p>
-              <a href="https://www.paypal.com/donate?token=KT5tm82R_Dt7w5PLCryLQx2rNrJo45wXVBplI2JaOosS7QaZKu0828s_HClLXX1KjTgzzsFzGw5mLHUt" target="_blank" class="btn btn-primary">Dona con PayPal</a>
+              <p>Dona online in modo sicuro e veloce</p>
+              <a href="https://www.paypal.com/donate?token=KT5tm82R_Dt7w5PLCryLQx2rNrJo45wXVBplI2JaOosS7QaZKu0828s_HClLXX1KjTgzzsFzGw5mLHUt" target="_blank" rel="noopener" class="btn btn-primary">Dona con PayPal</a>
             </div>
           </div>
         </div>
@@ -60,41 +61,52 @@
 
 <script>
 import Icon from '../components/Icon.vue'
+import { useReveal } from '../composables/useReveal'
+
+const { init: initReveal, destroy: destroyReveal } = useReveal()
 
 export default {
-  components: { Icon }
+  components: { Icon },
+  mounted() {
+    this.$nextTick(() => initReveal(this.$el))
+  },
+  beforeUnmount() {
+    destroyReveal()
+  }
 }
 </script>
 
 <style scoped>
-.hero-small {
-  background: linear-gradient(135deg, var(--cri-red) 0%, var(--cri-dark-red) 100%);
-  color: white;
-  padding: 80px 0;
-  text-align: center;
-}
-
-.hero-small h1 {
-  font-size: 2.5rem;
-  margin-bottom: 16px;
-}
-
 .content {
   max-width: 900px;
   margin: 0 auto;
 }
 
 .content h2 {
-  font-size: 2rem;
-  margin: 48px 0 24px;
+  font-size: 2.25rem;
+  margin: 56px 0 24px;
   color: var(--cri-red);
+  letter-spacing: -0.02em;
+}
+
+.content h2:first-of-type {
+  margin-top: 0;
+}
+
+.content > p {
+  line-height: 1.8;
 }
 
 .highlight-box {
   background: var(--cri-light-gray);
   padding: 40px;
-  border-radius: 8px;
+  border-radius: var(--cri-radius-md);
   margin: 32px 0;
+}
+
+.highlight-box h3 {
+  margin-bottom: 24px;
+  font-size: 1.25rem;
 }
 
 .steps-simple {
@@ -113,6 +125,7 @@ export default {
 .step-simple .number {
   width: 40px;
   height: 40px;
+  min-width: 40px;
   background: var(--cri-red);
   color: white;
   border-radius: 50%;
@@ -124,17 +137,27 @@ export default {
 
 .cf-box {
   background: white;
-  padding: 24px;
-  border-radius: 8px;
+  padding: 32px;
+  border-radius: var(--cri-radius-md);
   text-align: center;
-  border: 2px solid var(--cri-red);
+  border: 3px solid var(--cri-red);
+}
+
+.cf-label {
+  font-size: 0.8125rem;
+  color: var(--cri-text-light);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
 }
 
 .cf-code {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--cri-red);
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  font-variant-numeric: tabular-nums;
 }
 
 .donation-methods {
@@ -147,15 +170,16 @@ export default {
 .method-card {
   background: white;
   padding: 32px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: var(--cri-radius-md);
+  box-shadow: var(--cri-shadow-sm);
   text-align: center;
 }
 
-.method-card .icon {
+.method-icon {
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
+  color: var(--cri-red);
 }
 
 .method-card h3 {
@@ -164,15 +188,22 @@ export default {
   color: var(--cri-red);
 }
 
+.method-card p {
+  margin-bottom: 8px;
+}
+
+.iban {
+  font-family: monospace;
+  font-size: 0.95rem;
+  word-break: break-all;
+  background: var(--cri-light-gray);
+  padding: 8px 12px;
+  border-radius: var(--cri-radius-sm);
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
 @media (max-width: 768px) {
-  .hero-small {
-    padding: 60px 0;
-  }
-
-  .hero-small h1 {
-    font-size: 2rem;
-  }
-
   .highlight-box {
     padding: 24px;
   }

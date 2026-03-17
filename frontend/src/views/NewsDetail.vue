@@ -1,7 +1,18 @@
 <template>
-  <div class="news-detail" v-if="post">
-    <article class="article">
-      <div class="article-header" v-if="hasValidImage" :style="{ backgroundImage: `url(${getMediaUrl(post.featured_media)})` }">
+  <div class="news-detail">
+    <LoadingSpinner v-if="loading" :messages="['Caricamento articolo...', 'Recupero i contenuti...', 'Quasi pronto...']" />
+
+    <div v-else-if="error" class="error-container section">
+      <div class="container">
+        <div class="status-message error">
+          Non è stato possibile caricare l'articolo. 
+          <router-link to="/news">Torna alle news</router-link>
+        </div>
+      </div>
+    </div>
+
+    <article v-else-if="post">
+      <div class="article-header hero-animate" v-if="hasValidImage" :style="{ backgroundImage: `url(${getMediaUrl(post.featured_media)})` }">
         <div class="overlay"></div>
         <div class="container">
           <div class="header-content">
@@ -11,7 +22,7 @@
         </div>
       </div>
       
-      <div class="article-header simple" v-else>
+      <div class="article-header simple hero-animate" v-else>
         <div class="container">
           <div class="header-content">
             <span class="date">{{ formatDate(post.date) }}</span>
@@ -22,10 +33,9 @@
 
       <section class="section">
         <div class="container">
-          <div class="content" v-html="cleanContent"></div>
-          
-          <div class="back-button">
-            <router-link to="/news" class="btn btn-outline">← Torna alle news</router-link>
+          <div class="content reveal" v-html="cleanContent"></div>
+          <div class="back-button reveal">
+            <router-link to="/news" class="btn btn-outline">&larr; Torna alle news</router-link>
           </div>
         </div>
       </section>
@@ -34,11 +44,19 @@
 </template>
 
 <script>
+import LoadingSpinner from '../components/LoadingSpinner.vue'
+import { useReveal } from '../composables/useReveal'
+
+const { init: initReveal, destroy: destroyReveal } = useReveal()
+
 export default {
+  components: { LoadingSpinner },
   data() {
     return {
       posts: [],
-      media: []
+      media: [],
+      loading: true,
+      error: false
     }
   },
   async mounted() {
@@ -49,9 +67,16 @@ export default {
       ])
       this.posts = await postsRes.json()
       this.media = await mediaRes.json()
-    } catch (error) {
-      console.error('Errore caricamento dati:', error)
+    } catch (err) {
+      console.error('Errore caricamento dati:', err)
+      this.error = true
+    } finally {
+      this.loading = false
+      this.$nextTick(() => initReveal(this.$el))
     }
+  },
+  beforeUnmount() {
+    destroyReveal()
   },
   computed: {
     post() {
@@ -62,7 +87,8 @@ export default {
       let content = this.post.content.rendered
       const featuredUrl = this.getMediaUrl(this.post.featured_media)
       if (featuredUrl) {
-        const imgRegex = new RegExp(`<img[^>]*src=["']${featuredUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}["'][^>]*>`, 'gi')
+        const escaped = featuredUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+        const imgRegex = new RegExp(`<img[^>]*src=["']${escaped}["'][^>]*>`, 'gi')
         content = content.replace(imgRegex, '')
       }
       return content
@@ -73,15 +99,13 @@ export default {
   },
   methods: {
     formatDate(date) {
-      return new Date(date).toLocaleDateString('it-IT', { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
+      return new Date(date).toLocaleDateString('it-IT', {
+        year: 'numeric', month: 'long', day: 'numeric'
       })
     },
     getMediaUrl(mediaId) {
-      const mediaItem = this.media.find(m => m.id === mediaId)
-      return mediaItem?.source_url || ''
+      const item = this.media.find(m => m.id === mediaId)
+      return item?.source_url || ''
     }
   }
 }
@@ -120,7 +144,7 @@ export default {
   background: var(--cri-red);
   color: white;
   padding: 6px 16px;
-  border-radius: 20px;
+  border-radius: var(--cri-radius-full);
   font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: 16px;
@@ -159,9 +183,9 @@ export default {
 .content :deep(img) {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: var(--cri-radius-lg);
   margin: 32px 0;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  box-shadow: var(--cri-shadow-md);
 }
 
 .content :deep(ul),
@@ -187,6 +211,41 @@ export default {
   margin: 40px auto 0;
 }
 
+/* Article header entrance */
+.hero-animate {
+  animation: hero-fade-in var(--cri-duration-slow) var(--cri-ease-out) both;
+}
+
+.hero-animate .header-content .date {
+  animation: hero-slide-up 600ms var(--cri-ease-out-expo) 100ms both;
+}
+
+.hero-animate .header-content h1 {
+  animation: hero-slide-up 600ms var(--cri-ease-out-expo) 200ms both;
+}
+
+@keyframes hero-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes hero-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.error-container {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .article-header {
     min-height: 300px;
@@ -201,7 +260,6 @@ export default {
   }
 
   .content {
-    padding: 0 16px;
     font-size: 1rem;
   }
 

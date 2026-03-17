@@ -103,8 +103,8 @@ async function downloadNewsImages() {
   fs.writeFileSync('./frontend/src/data/posts.json', JSON.stringify(updatedPosts, null, 2));
   fs.writeFileSync('./frontend/src/data/media.json', JSON.stringify(updatedMedia, null, 2));
   
-  console.log(`\n✅ Downloaded ${Object.keys(imageMap).length} images`);
-  console.log('✅ Updated posts.json and media.json');
+  console.log(`\n[OK] Downloaded ${Object.keys(imageMap).length} images`);
+  console.log('[OK] Updated posts.json and media.json');
 }
 
 downloadNewsImages().catch(console.error);

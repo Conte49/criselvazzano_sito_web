@@ -1,0 +1,3150 @@
+[
+    {
+        "id": 6530,
+        "date": "2026-02-01T17:32:59",
+        "date_gmt": "2026-02-01T17:32:59",
+        "modified": "2026-02-01T17:32:59",
+        "modified_gmt": "2026-02-01T17:32:59",
+        "slug": "test",
+        "status": "publish",
+        "type": "post",
+        "title": {
+            "rendered": "test"
+        },
+        "content": {
+            "rendered": "test",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "test",
+            "protected": false
+        },
+        "featured_media": 0,
+        "author": 3,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6530"
+        },
+        "link": "https://www.criselvazzanodentro.it/test/",
+        "_links": []
+    },
+    {
+        "id": 6529,
+        "date": "2026-02-01T17:32:12",
+        "date_gmt": "2026-02-01T17:32:12",
+        "modified": "2026-02-01T17:32:12",
+        "modified_gmt": "2026-02-01T17:32:12",
+        "slug": "test",
+        "status": "publish",
+        "type": "post",
+        "title": {
+            "rendered": "test"
+        },
+        "content": {
+            "rendered": "test",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "test",
+            "protected": false
+        },
+        "featured_media": 0,
+        "author": 3,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6529"
+        },
+        "link": "https://www.criselvazzanodentro.it/test/",
+        "_links": []
+    },
+    {
+        "id": 6528,
+        "date": "2025-11-22T21:58:30",
+        "date_gmt": "2025-11-22T20:58:30",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6528"
+        },
+        "modified": "2025-11-22T21:59:24",
+        "modified_gmt": "2025-11-22T20:59:24",
+        "slug": "progetto_natale_per_tutti_2025",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/progetto_natale_per_tutti_2025/",
+        "title": {
+            "rendered": "Progetto Natale per Tutti &#8211; Raccolta Regali di Natale"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3c78a6 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3c78a6 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3c7c73 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3c7c73 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n\n#cmsms_button_697eaec3c80bb { \n\ttext-align:center; \n} \n\n#cmsms_button_697eaec3c80bb .cmsms_button:before { \n\tmargin-right:.5em; \n\tmargin-left:0; \n\tvertical-align:baseline; \n} \n\n#cmsms_button_697eaec3c80bb .cmsms_button { \n\tfont-weight:normal; \n\tfont-style:normal; \n\tborder-style:solid; \n} \n#cmsms_button_697eaec3c80bb .cmsms_button:hover { \n} \n</style><div id=\"cmsms_row_697eaec3c78a6\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/progetto_natale_per_tutti_2025.jpg\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3c7c73\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 style=\"text-align: center;\"><strong>PROGETTO &#8220;NATALE PER TUTTI&#8221; &#8211; RACCOLTA REGALI DI NATALE</strong></h3>\n<h4 style=\"text-align: center;\">Anche quest’anno la Croce Rossa Italiana – Comitato di Selvazzano Dentro rinnova con entusiasmo l’iniziativa “un regalo per tutti”, il progetto solidale dedicato alla raccolta di doni natalizi destinati ai bambini e alle famiglie del nostro territorio che si trovano in difficoltà.</h4>\n<h4 style=\"text-align: center;\">L’obiettivo dell’iniziativa è offrire a tutti i bambini la gioia di un dono sotto l’albero grazie alla generosità della comunità.</h4>\n<h4 style=\"text-align: center;\">I doni, nuovi o in ottimo stato, dovranno essere <strong>raccolti entro il prossimo 5 dicembre 2025</strong>.</h4>\n<h4 style=\"text-align: center;\">Gli stessi possono essere consegnati presso la nostra sede in <strong>Selvazzano Dentro, Via Tasso 8</strong> o, in alternativa, <strong>presso i punti di consegna</strong> che ciascun comune-istituto scolastico può attivare in autonomia.</h4>\n<h4 style=\"text-align: center;\">Per l’attivazione di un punto di ritiro sul territorio si invita a segnalare la sua costituzione inviando all’indirizzo e-mail: <a href=\"mailto:natale.per.tutti@criselvazzanodentro.it\">natale.per.tutti@criselvazzanodentro.it</a> l’indirizzo del punto di ritiro, l’indicazione di un referente e un suo recapito telefonico, gli orari di apertura per la gestione del ritiro del materiale raccolto. Il ritiro del materiale presso i punti di raccolta esterni sarà gestito dalla C.R.I. con propri mezzi e personale.</h4>\n<h4 style=\"text-align: center;\">Chi lo desidera può anche sostenere l’iniziativa attraverso donazioni economiche che varranno utilizzate per coprire i costi organizzativi della campagna e per acquistare ulteriori regali laddove necessario.</h4>\n<h4 style=\"text-align: center;\">Per le donazioni è possibile utilizzare i seguenti riferimenti bancari:</h4>\n<h4 style=\"text-align: center;\">IBAN: IT88N0306909606100000078845<br />\nINTESTATARIO: C.R.I. COMITATO DI SELVAZZANO DENTRO O.D.V.<br />\nISTITUTO: INTESA SAN PAOLO<br />\nCAUSALE: SOSTEGNO CAMPAGNA NATALE PER TUTTI</h4>\n<h4 style=\"text-align: center;\">Confidando nella vostra collaborazione e nella vostra generosità, ringrazio fin da ora quanto potrete fare per il buon esito della campagna.</h4>\n</div>\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/progetto_natale_per_tutti_2025-1.jpg\" alt=\"\" />\n</div>\n</div>\n<div class=\"cmsms_text\">\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n</div>\n\n<div id=\"cmsms_button_697eaec3c80bb\" class=\"button_wrap\"><a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2025/11/PROGETTO-NATALE-PER-TUTTI.pdf\" class=\"cmsms_button\" target=\"_blank\"><span>Maggiori Informazioni</span></a></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6529,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6528"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6528"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 7,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6528/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6539,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6528/revisions/6539"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6529"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6528"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6528"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6528"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6517,
+        "date": "2025-09-03T21:30:52",
+        "date_gmt": "2025-09-03T19:30:52",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6517"
+        },
+        "modified": "2025-09-05T21:58:55",
+        "modified_gmt": "2025-09-05T19:58:55",
+        "slug": "progetto8_13",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/progetto8_13/",
+        "title": {
+            "rendered": "Progetto 8-13"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3c8c58 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3c8c58 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3c8f7c .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3c8f7c .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n\n#cmsms_button_697eaec3c9088 { \n\ttext-align:center; \n} \n\n#cmsms_button_697eaec3c9088 .cmsms_button:before { \n\tmargin-right:.5em; \n\tmargin-left:0; \n\tvertical-align:baseline; \n} \n\n#cmsms_button_697eaec3c9088 .cmsms_button { \n\tfont-weight:normal; \n\tfont-style:normal; \n\tborder-style:solid; \n} \n#cmsms_button_697eaec3c9088 .cmsms_button:hover { \n} \n</style><div id=\"cmsms_row_697eaec3c8c58\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2025/09/progetto_8_13_2025.pdf\" target=\"_blank\"><img src=\"/news-images/progetto8_13-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3c8f7c\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 style=\"text-align: center;\"><strong>PROGETTO FORMATIVO 8-13</strong></h3>\n<h4 style=\"text-align: center;\">Un&#8217;iniziativa rivolta a bambine, bambini e adolescenti, tra gli 8 e i 13 anni,</h4>\n<h4 style=\"text-align: center;\">per muovere insieme i primi passi con la Croce Rossa Italiana, e scoprire, attraverso il gioco,</h4>\n<h4 style=\"text-align: center;\">i valori umanitari e le tante attività dell&#8217;Associazione.</h4>\n<p>&nbsp;</p>\n</div>\n\n<div id=\"cmsms_button_697eaec3c9088\" class=\"button_wrap\"><a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2025/09/progetto_8_13_2025.pdf\" class=\"cmsms_button\" target=\"_blank\"><span>Maggiori Informazioni</span></a></div>\n<div class=\"cmsms_text\">\n<h5>&nbsp;</h5>\n<h5 style=\"text-align: center;\"><strong>ISCRIVITI PER PARTECIPARE</strong></h5>\n<h5 style=\"text-align: center;\">Telefono del Comitato: <a href=\"tel:0498977463\">049.8977463</a></h5>\n<h5 style=\"text-align: center;\">Mail: <a href=\"mailto:selvazzanodentro@cri.it\">selvazzanodentro@cri.it</a></h5>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6522,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6517"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6517"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 5,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6517/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6526,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6517/revisions/6526"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6522"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6517"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6517"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6517"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6468,
+        "date": "2024-07-20T18:00:10",
+        "date_gmt": "2024-07-20T16:00:10",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6468"
+        },
+        "modified": "2024-07-20T18:00:32",
+        "modified_gmt": "2024-07-20T16:00:32",
+        "slug": "il-rompighiaccio-2024",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/il-rompighiaccio-2024/",
+        "title": {
+            "rendered": "Sportello Sociale &#8211; IL ROMPIGHIACCIO"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3c980a .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3c980a .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3c9aff .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3c9aff .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3c980a\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/il-rompighiaccio-2024.jpg\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3c9aff\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h4 style=\"text-align: center;\">Lo Sportello Sociale IL ROMPIGHIACCIO</h4>\n<h3 style=\"text-align: center;\"><strong>CAMBIA SEDE</strong></h3>\n<h4 style=\"text-align: center;\">Vi aspettiamo in <strong>via Palu’ 2</strong> a <strong>RUBANO</strong>, presso la sede della Croce Rossa Italiana</h4>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6466,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6468"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6468"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6468/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6470,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6468/revisions/6470"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6466"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6468"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6468"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6468"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6431,
+        "date": "2024-05-17T22:00:18",
+        "date_gmt": "2024-05-17T20:00:18",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6431"
+        },
+        "modified": "2024-05-17T22:02:41",
+        "modified_gmt": "2024-05-17T20:02:41",
+        "slug": "elezioni-2024-news",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/elezioni-2024-news/",
+        "title": {
+            "rendered": "Elezioni 2024"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3ca311 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3ca311 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3ca5d4 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3ca5d4 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3ca311\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/elezioni-2024-news.png\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3ca5d4\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 class=\"cmsms_heading\">Elezioni degli Organi Statutari della Croce Rossa Italiana – Comitato di Selvazzano Dentro</h3>\n<h4>Le elezioni si svolgeranno&nbsp;<strong>domenica 19 maggio 2024 presso la sede della Croce Rossa Italiana – Comitato di Selvazzano Dentro, Via Torquato Tasso 8 – Caselle di Selvazzano Dentro (PD),&nbsp; dalle ore 9.00 alle ore 20.00</strong>.</h4>\n<p>Per informazioni visitare la <a href=\"https://www.criselvazzanodentro.it/elezioni-2024/\">pagina dedicata</a></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6415,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6431"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6431"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6431/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6432,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6431/revisions/6432"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6415"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6431"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6431"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6431"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6264,
+        "date": "2022-04-19T20:36:57",
+        "date_gmt": "2022-04-19T18:36:57",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6264"
+        },
+        "modified": "2022-04-19T20:36:57",
+        "modified_gmt": "2022-04-19T18:36:57",
+        "slug": "cri-salvavita-pediatrico",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/cri-salvavita-pediatrico/",
+        "title": {
+            "rendered": "Chi salva un bambino salva il mondo intero"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3cad81 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cad81 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3cb087 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cb087 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3cad81\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/cri-salvavita-pediatrico.jpeg\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3cb087\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h2 style=\"text-align: center;\"><strong>CHI SALVA UN BAMBINO SALVA IL MONDO INTERO</strong></h2>\n<p style=\"text-align: center;\">Questo il motto che Croce Rossa Italiana ha adottato per la campagna di divulgazione delle Manovre Salvavita Pediatriche.<br />\nVuoi anche tu imparare queste semplici manovre? Partecipa al corso che il Comitato organizzerà</p>\n<h4 style=\"text-align: center;\"><strong>il 30 aprile dalle 08:30 alle 12:30</strong></h4>\n<p style=\"text-align: center;\">Presso la sede di Mestrino in via Trieste 2, i partecipanti (massimo 18) dovranno essere muniti di green pass ed indossare la mascherina FFP2. Quota partecipazione 35 euro.</p>\n<p>Per iscriverti o per avere ulteriori informazioni manda una mail a <a href=\"mailto:msp@criselvazzanodentro.it\">msp@criselvazzanodentro.it</a><br />\nTi aspettiamo</p>\n<p>#criselvazzano<br />\n#manovresalvavitapediatriche<br />\n#saperfare<br />\n#formazione</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6266,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6264"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6264"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6264/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6267,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6264/revisions/6267"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6266"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6264"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6264"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6264"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6260,
+        "date": "2022-02-18T21:15:26",
+        "date_gmt": "2022-02-18T20:15:26",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6260"
+        },
+        "modified": "2022-10-25T08:49:55",
+        "modified_gmt": "2022-10-25T06:49:55",
+        "slug": "progetto-poseidone-we-love-people-2",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/progetto-poseidone-we-love-people-2/",
+        "title": {
+            "rendered": "Covid-19 &#8211; HUB TAMPONI"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3cb869 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cb869 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3cbb59 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cbb59 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3cb869\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/progetto-poseidone-we-love-people-2.jpg\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3cbb59\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 style=\"text-align: center;\"><a href=\"mailto:selvazzanodentro@cri.it\" target=\"_blank\" rel=\"noopener noreferrer\">PRENOTA TAMPONE</a></h3>\n<h5 style=\"text-align: center;\">TRAMITE IL LINK SOPRA SARA&#8217; POSSIBILE INVIARE UN&#8217;E-MAIL PER RICHIEDERE LA PRENOTAZIONE</h5>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6283,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6260"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6260"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 5,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6260/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6303,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6260/revisions/6303"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6283"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6260"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6260"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6260"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6238,
+        "date": "2022-01-07T10:48:21",
+        "date_gmt": "2022-01-07T09:48:21",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6238"
+        },
+        "modified": "2022-01-07T10:48:21",
+        "modified_gmt": "2022-01-07T09:48:21",
+        "slug": "progetto-poseidone-we-love-people",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/progetto-poseidone-we-love-people/",
+        "title": {
+            "rendered": "Progetto POSEIDONE &#8211; We Love People"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3cc2de .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cc2de .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3cc5c0 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cc5c0 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3cc2de\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/progetto-poseidone-we-love-people.jpg\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3cc5c0\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 style=\"text-align: center;\">Dall&#8217;8 gennaio siamo presenti presso il supermercato Alì in Via Sant&#8217;Antonio, 2 Selvazzano Dentro PD (C/o IL Bacchiglione) con un contenitore dove poter inserire il proprio gettone che in cassa viene dato dopo ogni spesa. Il ricavato dai gettoni sarà utilizzato per l&#8217;acquisto delle attrezzatura per le emergenze idriche del territorio.</h3>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6239,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6238"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6238"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6238/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6240,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6238/revisions/6240"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6239"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6238"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6238"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6238"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6176,
+        "date": "2022-01-01T17:22:32",
+        "date_gmt": "2022-01-01T16:22:32",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6176"
+        },
+        "modified": "2022-01-07T10:49:07",
+        "modified_gmt": "2022-01-07T09:49:07",
+        "slug": "emergenze-allagamento-progetto-poseidone",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/emergenze-allagamento-progetto-poseidone/",
+        "title": {
+            "rendered": "EMERGENZE ALLAGAMENTO &#8211; Progetto POSEIDONE"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3ccd7d .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3ccd7d .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3cd087 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cd087 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3ccd7d\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2022/01/depliant_Poseidone.pdf\" target=\"_blank\"><img src=\"/news-images/emergenze-allagamento-progetto-poseidone-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3cd087\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h1 style=\"text-align: center;\"><strong>EMERGENZE ALLAGAMENTO</strong></h1>\n<h2 style=\"text-align: center;\"><strong>AIUTACI AD AIUTARE</strong></h2>\n<p>Se vuoi puoi contribuire con una donazione libera alla Croce Rossa comitato di Selvazzano Dentro tramite IBAN:</p>\n<h3 style=\"text-align: center;\">IT 88 N 03069 09606 100000078845</h3>\n<p style=\"text-align: center;\">Banca Intesa San Paolo<br />\nCausale: Donazione vincolata settore emergenza per progetto Poseidone</p>\n<p style=\"text-align: center;\">GRAZIE ALLE VOSTRE DONAZIONI SAREMO IN GRADO DI ACQUISTARE LE ATTREZZATURE PER GESTIRE LE EMERGENZE IDRICHE DEL NOSTRO TERRITORIO</p>\n<p>Info e contatti <a href=\"mailto:sol.selvazzanodentro@cri.it\">sol.selvazzanodentro@cri.it</a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2022/01/depliant_Poseidone.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>SCARICA IL DEPLIANT</strong></a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2022/01/Progetto-Poseidone.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>SCARICA IL DOCUMENTO INFORMATIVO</strong></a></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6178,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6176"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6176"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 6,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6176/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6186,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6176/revisions/6186"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6178"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6176"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6176"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6176"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6055,
+        "date": "2021-06-14T22:00:24",
+        "date_gmt": "2021-06-14T20:00:24",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6055"
+        },
+        "modified": "2021-06-23T17:08:55",
+        "modified_gmt": "2021-06-23T15:08:55",
+        "slug": "convocazione-assemblea-dei-soci-12-dicembre-2019-2-2",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/convocazione-assemblea-dei-soci-12-dicembre-2019-2-2/",
+        "title": {
+            "rendered": "Convocazione Assemblea dei Soci &#8211; 30 Giugno 2021"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3cd8bc .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cd8bc .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3cdb9e .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cdb9e .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3cd8bc\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2021/06/Prot305_2021.pdf\" target=\"_blank\"><img src=\"/news-images/convocazione-assemblea-dei-soci-12-dicembre-2019-2-2.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3cdb9e\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>E&#8217; convocata l&#8217;Assemblea ordinaria dei Soci, in prima convocazione Martedì 29 Giugno 2021 alle ore 23.00 ed <strong>in seconda convocazione Mercoledì 30 Giugno 2021 alle ore 20.45 in modalità videoconferenza</strong> attraverso la piattaforma ZOOM.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6056,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6055"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6055"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6055/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6059,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6055/revisions/6059"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6056"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6055"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6055"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6055"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6041,
+        "date": "2021-01-11T22:04:39",
+        "date_gmt": "2021-01-11T21:04:39",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6041"
+        },
+        "modified": "2021-01-11T22:05:29",
+        "modified_gmt": "2021-01-11T21:05:29",
+        "slug": "mai-piu-soli",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/mai-piu-soli/",
+        "title": {
+            "rendered": "Mai più soli"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3ce355 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3ce355 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3ce644 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3ce644 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3ce355\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/mai-piu-soli.jpg\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3ce644\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 class=\"cmsms_heading\">Croce Rossa Italiana &#8211; Comitato di Selvazzano Dentro</h3>\n<h4>Sei anziano, fragile, malato, solo?</h4>\n<h4>Hai bisogno di fare la spesa, ritirare i farmaci?</h4>\n<h4>Oppure hai solo voglia di scambiare quattro chiacchiere?</h4>\n<h4><strong>Contattaci al numero: 3665633261</strong></h4>\n<h4><strong>Il Lunedì ed il Giovedì dalle 8:30 alle 12:30</strong></h4>\n<p>Il servizio è riservato agli abitanti dei comuni di Campodoro, Cervarese Santa Croce, Mestrino, Rovolon, Rubano, Saccolongo, Selvazzano Dentro, Teolo e Veggiano.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6043,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6041"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6041"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6041/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6044,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6041/revisions/6044"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6043"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6041"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6041"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6041"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6045,
+        "date": "2021-01-08T22:20:12",
+        "date_gmt": "2021-01-08T21:20:12",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6045"
+        },
+        "modified": "2021-01-12T12:52:22",
+        "modified_gmt": "2021-01-12T11:52:22",
+        "slug": "sportello-sociale-rompighiaccio",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/sportello-sociale-rompighiaccio/",
+        "title": {
+            "rendered": "Sportello Sociale &#8220;Il Rompighiaccio&#8221;"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3cee47 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cee47 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3cf152 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cf152 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3cee47\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2021/01/Sportello_A4_21_1.pdf\" target=\"_blank\"><img src=\"/news-images/sportello-sociale-rompighiaccio-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3cf152\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 class=\"cmsms_heading\">Croce Rossa Italiana &#8211; Comitato di Selvazzano Dentro</h3>\n<h4><strong>Sportello Sociale &#8220;Il Rompighiaccio&#8221;</strong></h4>\n<h4>Ti aspettiamo in Via Trieste a Mestrino,</h4>\n<h4>presso la sede della Croce Rossa, dalle 9:30 alle 12:00 nei giorni:</h4>\n<p><strong>10 Gennaio 2021 &#8211; 16 Gennaio 2021 &#8211; 23 Gennaio 2021 &#8211; 30 Gennaio 2021</strong></p>\n<h4><strong>oppure contattaci al numero: +393666285870</strong></h4>\n<h4><strong>o tramite mail: sportellosociale@criselvazzanodentro.it</strong></h4>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6050,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6045"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6045"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6045/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6051,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6045/revisions/6051"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6050"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6045"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6045"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6045"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6032,
+        "date": "2020-10-12T21:01:08",
+        "date_gmt": "2020-10-12T19:01:08",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6032"
+        },
+        "modified": "2020-10-23T13:18:12",
+        "modified_gmt": "2020-10-23T11:18:12",
+        "slug": "convocazione-assemblea-dei-soci-12-dicembre-2019-2",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/convocazione-assemblea-dei-soci-12-dicembre-2019-2/",
+        "title": {
+            "rendered": "Convocazione Assemblea dei Soci &#8211; 27 Ottobre 2020"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3cf98d .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cf98d .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3cfc7f .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3cfc7f .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3cf98d\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2020/10/Prot525_2020-C.pdf\" target=\"_blank\"><img src=\"/news-images/convocazione-assemblea-dei-soci-12-dicembre-2019-2.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3cfc7f\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>E&#8217; convocata l&#8217;Assemblea ordinaria dei Soci, in prima convocazione Lunedì 26 Ottobre 2020 alle ore 23.00 ed <strong>in seconda convocazione Martedì 27 Ottobre 2020 alle ore 21.00 in modalità videoconferenza</strong> tramite sistema che verrà comunicato nei prossimi giorni.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6036,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6032"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6032"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6032/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6038,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6032/revisions/6038"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6036"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6032"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6032"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6032"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6002,
+        "date": "2020-03-15T09:54:11",
+        "date_gmt": "2020-03-15T08:54:11",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=6002"
+        },
+        "modified": "2020-03-17T21:47:26",
+        "modified_gmt": "2020-03-17T20:47:26",
+        "slug": "cri-per-te",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/cri-per-te/",
+        "title": {
+            "rendered": "CRI per Te!"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d044c .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d044c .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d0754 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d0754 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d044c\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/cri-per-te-1.jpg\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d0754\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 class=\"cmsms_heading\">Croce Rossa Italiana &#8211; Comitato di Selvazzano Dentro</h3>\n<h4>Aderisce alla campagna <strong>CRI per Te!</strong></h4>\n<h4>Servizio di Spesa e Farmaci a Domicilio per anziani, persone fragili e immunodepressi.</h4>\n<h4><strong>Contattaci al numero: 3665633261</strong></h4>\n<h4><strong>Tutti i giorni dalle 8:30 alle 12:30</strong></h4>\n<p>Il servizio è attivo nei comuni di Campodoro, Cervarese Santa Croce, Mestrino, Rovolon, Rubano, Saccolongo, Selvazzano Dentro, Teolo e Veggiano.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 6011,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6002"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=6002"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 4,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6002/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 6014,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/6002/revisions/6014"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/6011"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=6002"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=6002"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=6002"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5967,
+        "date": "2020-02-02T19:33:16",
+        "date_gmt": "2020-02-02T18:33:16",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=5967"
+        },
+        "modified": "2020-02-02T19:33:16",
+        "modified_gmt": "2020-02-02T18:33:16",
+        "slug": "elezioni-2020-news",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/elezioni-2020-news/",
+        "title": {
+            "rendered": "Elezioni 2020"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d0f1d .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d0f1d .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d120c .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d120c .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d0f1d\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"https://www.criselvazzanodentro.it/elezioni-2020/\"><img src=\"/news-images/elezioni-2020-news-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d120c\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<h3 class=\"cmsms_heading\">Elezioni degli Organi Statutari della Croce Rossa Italiana – Comitato di Selvazzano Dentro</h3>\n<h4>Le elezioni si svolgeranno&nbsp;<strong>domenica 16 febbraio 2020 presso la sede della Croce Rossa Italiana – Comitato di Selvazzano Dentro, Via Torquato Tasso 8 – Caselle di Selvazzano Dentro (PD),&nbsp; dalle ore 9.00 alle ore 20.00</strong>.</h4>\n<p>Per informazioni visitare la <a href=\"https://www.criselvazzanodentro.it/elezioni-2020/\">pagina dedicata</a></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5944,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5967"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5967"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5967/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5968,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5967/revisions/5968"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5944"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5967"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5967"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5967"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5935,
+        "date": "2019-12-29T10:42:15",
+        "date_gmt": "2019-12-29T09:42:15",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=5935"
+        },
+        "modified": "2019-12-29T10:42:15",
+        "modified_gmt": "2019-12-29T09:42:15",
+        "slug": "concerto-19-ottobre-2019-foto-evento",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/concerto-19-ottobre-2019-foto-evento/",
+        "title": {
+            "rendered": "Concerto 19 Ottobre 2019 &#8211; Foto evento"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d19b0 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d19b0 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d1c8b .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d1c8b .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d19b0\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/concerto-19-ottobre-2019-foto-evento-1.png\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d1c8b\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>Tramite il seguente link:</p>\n<p><a href=\"https://drive.google.com/drive/folders/1A2_LhLoDJMl1jm5sIbLrEa5vYRdDT9DU?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Foto Concerto 19 Ottobre 2019</a></p>\n<p>è possibile visualizzare e scaricare le foto scattate durante il concerto del 19 Ottobre 2019, organizzato dal Comitato grazie all&#8217;impegno di tutti, perché un momento di festa va sempre condiviso!</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5928,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5935"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5935"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5935/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5938,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5935/revisions/5938"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5928"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5935"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5935"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5935"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5925,
+        "date": "2019-12-11T21:48:06",
+        "date_gmt": "2019-12-11T20:48:06",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=5925"
+        },
+        "modified": "2019-12-11T21:48:06",
+        "modified_gmt": "2019-12-11T20:48:06",
+        "slug": "cerimonia-30-anni-cena-solidale",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/cerimonia-30-anni-cena-solidale/",
+        "title": {
+            "rendered": "Cerimonia del 30° anno di attività di Croce Rossa nel territorio e cena solidale"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d2413 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d2413 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d24fe .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d24fe .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d2413\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<img src=\"/news-images/concerto-19-ottobre-2019-foto-evento-1.png\" alt=\"\" />\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d24fe\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>Il&nbsp;<b>giorno 7 dicembre 2019 (pomeriggio)</b>&nbsp;ha avuto luogo presso l’Auditorium San Michele di Selvazzano Dentro, via Roma 68/B la cerimonia pubblica per ricordare il 30° anno di attività della Croce Rossa nel territorio.<br />\nNella serata si è, inoltre, svolta la cena solidale del Comitato.</p>\n<p>E’ possibile visualizzare e scaricare le foto dei 2 eventi utilizzando questo link:</p>\n<p><a href=\"https://drive.google.com/drive/folders/1-21IpzH_hjQWjh3WLRWctLJW4lPbQUO0\" target=\"_blank\" rel=\"noopener noreferrer\">Foto 30mo anno attività e cena solidale</a></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5928,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5925"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5925"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 5,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5925/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5933,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5925/revisions/5933"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5928"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5925"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5925"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5925"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5920,
+        "date": "2019-11-26T17:55:43",
+        "date_gmt": "2019-11-26T16:55:43",
+        "guid": {
+            "rendered": "https://www.criselvazzanodentro.it/?p=5920"
+        },
+        "modified": "2019-11-27T17:56:38",
+        "modified_gmt": "2019-11-27T16:56:38",
+        "slug": "convocazione-assemblea-dei-soci-12-dicembre-2019",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/convocazione-assemblea-dei-soci-12-dicembre-2019/",
+        "title": {
+            "rendered": "Convocazione Assemblea dei Soci &#8211; 12 Dicembre 2019"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d2d02 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d2d02 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d2ff9 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d2ff9 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d2d02\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"https://www.criselvazzanodentro.it/wp-content/uploads/2019/11/Prot2104_2019.pdf\" target=\"_blank\"><img src=\"/news-images/convocazione-assemblea-dei-soci-12-dicembre-2019-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d2ff9\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>E&#8217; convocata l&#8217;Assemblea ordinaria dei Soci, in prima convocazione il 11 Dicembre 2019 alle ore 12.00 ed <strong>in seconda convocazione il giorno 12 Dicembre 2019 alle ore 21.00 presso la Sala Polivalente &#8220;Presca&#8221; del Comune di Selvazzano Dentro in località San Domenico, Via Cristoforo Colombo 1</strong></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5918,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5920"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5920"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5920/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5923,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5920/revisions/5923"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5918"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5920"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5920"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5920"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5803,
+        "date": "2019-09-17T22:33:56",
+        "date_gmt": "2019-09-17T20:33:56",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5803"
+        },
+        "modified": "2019-09-17T22:33:56",
+        "modified_gmt": "2019-09-17T20:33:56",
+        "slug": "corso-base-cri-2019",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/corso-base-cri-2019/",
+        "title": {
+            "rendered": "Corso di Formazione per Volontari della Croce Rossa Italiana &#8211; 2019"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d3831 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d3831 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d3b56 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d3b56 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d3831\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"http://www.criselvazzanodentro.it/wp-content/uploads/2019/09/cri_presentazione_corso_base_2019.jpg\" target=\"_blank\"><img src=\"/news-images/corso-base-cri-2019-1.jpg\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d3b56\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>La <strong>Croce Rossa di Selvazzano Dentro</strong> organizza un nuovo corso per <strong>diventare volontario della Croce Rossa Italiana</strong> che inizierà tra pochi giorni.</p>\n<p><strong>Lunedì 7 Ottobre alle ore 21:00</strong>, a Caselle di Selvazzano Dentro in Piazza Carlo Leoni 11 ci sarà la <strong>presentazione del nuovo corso base</strong> di Croce Rossa Italiana &#8211; Comitato di Selvazzano Dentro.</p>\n<p><strong>Diventa anche Tu Volontario!</strong></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5804,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5803"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5803"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5803/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5806,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5803/revisions/5806"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5804"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5803"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5803"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5803"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5794,
+        "date": "2019-09-12T13:27:42",
+        "date_gmt": "2019-09-12T11:27:42",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5794"
+        },
+        "modified": "2019-09-12T14:13:10",
+        "modified_gmt": "2019-09-12T12:13:10",
+        "slug": "sportello-sociale-riapertura-2019",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/sportello-sociale-riapertura-2019/",
+        "title": {
+            "rendered": "Sportello Sociale &#8211; Riapertura dopo la pausa estiva"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d4358 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d4358 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d465e .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d465e .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d4358\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"http://www.criselvazzanodentro.it/wp-content/uploads/2019/09/sp_sociale_volantino_2019_2.pdf\" target=\"_blank\"><img src=\"/news-images/sportello-sociale-riapertura-2019-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d465e\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p><strong>Dopo la pausa estiva riprende l&#8217;appuntamento bimensile con lo Sportello Sociale.</strong></p>\n<p>Da Sabato 14 Settembre 2019 nei locali Croce Rossa Italiana di Mestrino (davanti la caserma dei carabinieri).</p>\n<p>Dalle ore 9:30 alle ore 12:00.</p>\n<p>Troverai:</p>\n<ul>\n<li>Accoglienza</li>\n<li>Ascolto</li>\n<li>Orientamento ai servizi del territorio</li>\n<li>Distribuzione generi alimentari di prima necessità</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5793,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5794"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5794"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5794/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5802,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5794/revisions/5802"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5793"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5794"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5794"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5794"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5788,
+        "date": "2019-09-11T16:30:00",
+        "date_gmt": "2019-09-11T14:30:00",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5788"
+        },
+        "modified": "2019-09-12T14:12:37",
+        "modified_gmt": "2019-09-12T12:12:37",
+        "slug": "convocazione-assemblea-dei-soci-30-settembre-2019",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/convocazione-assemblea-dei-soci-30-settembre-2019/",
+        "title": {
+            "rendered": "Convocazione Assemblea dei Soci &#8211; 30 Settembre 2019"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d4e10 .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d4e10 .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d513f .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d513f .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d4e10\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"http://www.criselvazzanodentro.it/wp-content/uploads/2019/09/Prot1603_2019.pdf\" target=\"_blank\"><img src=\"/news-images/convocazione-assemblea-dei-soci-30-settembre-2019-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d513f\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>E&#8217; convocata l&#8217;Assemblea ordinaria dei Soci, in prima convocazione il 29 Settembre 2019 alle ore 15.00 ed <strong>in seconda convocazione il giorno 30 Settembre 2019 alle ore 20.45 presso la Sala Semicircolare di Caselle di Selvazzano Dentro, Piazza C. Leoni n. 11</strong></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5790,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5788"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5788"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 4,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5788/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5801,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5788/revisions/5801"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5790"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5788"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5788"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5788"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5604,
+        "date": "2018-11-27T14:01:07",
+        "date_gmt": "2018-11-27T13:01:07",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5604"
+        },
+        "modified": "2019-09-12T14:11:55",
+        "modified_gmt": "2019-09-12T12:11:55",
+        "slug": "convocazione-assemblea-dei-soci-11-dicembre-2018",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/convocazione-assemblea-dei-soci-11-dicembre-2018/",
+        "title": {
+            "rendered": "Convocazione Assemblea dei Soci &#8211; 11 Dicembre 2018"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d591c .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d591c .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n \n#cmsms_row_697eaec3d5c3f .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d5c3f .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d591c\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"aligncenter\">\n<div class=\"cmsms_img  cmsms_image_c\">\n<a href=\"http://www.criselvazzanodentro.it/wp-content/uploads/2018/11/Prot2545_2018_1.pdf\" target=\"_blank\"><img src=\"/news-images/convocazione-assemblea-dei-soci-11-dicembre-2018-1.png\" alt=\"\" /></a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d5c3f\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p>&nbsp;</p>\n<p>E&#8217; convocata l&#8217;Assemblea ordinaria dei Soci, in prima convocazione il 10 Dicembre 2018 alle ore 12.00 ed <strong>in seconda convocazione il giorno 11 Dicembre 2018 alle ore 20.45 presso la Sala Semicircolare di Caselle di Selvazzano Dentro, Piazza C. Leoni n. 11</strong></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 3,
+        "featured_media": 5598,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5604"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/3"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5604"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5604/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5800,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5604/revisions/5800"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5598"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5604"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5604"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5604"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5567,
+        "date": "2018-04-19T12:36:50",
+        "date_gmt": "2018-04-19T10:36:50",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5567"
+        },
+        "modified": "2018-04-19T12:39:45",
+        "modified_gmt": "2018-04-19T10:39:45",
+        "slug": "1-festa-croce-rossa-5-maggio-2018",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/1-festa-croce-rossa-5-maggio-2018/",
+        "title": {
+            "rendered": "1° Festa di Croce Rossa &#8211; 5 Maggio 2018"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"></style><p><img src=\"/news-images/1-festa-croce-rossa-5-maggio-2018-1.png\" alt=\"\" width=\"1240\" height=\"1753\" class=\"aligncenter size-full wp-image-5569\" srcset=\"https://www.criselvazzanodentro.it/wp-content/uploads/2018/04/A4.png 1240w, https://www.criselvazzanodentro.it/wp-content/uploads/2018/04/A4-212x300.png 212w, https://www.criselvazzanodentro.it/wp-content/uploads/2018/04/A4-768x1086.png 768w, https://www.criselvazzanodentro.it/wp-content/uploads/2018/04/A4-724x1024.png 724w, https://www.criselvazzanodentro.it/wp-content/uploads/2018/04/A4-580x820.png 580w, https://www.criselvazzanodentro.it/wp-content/uploads/2018/04/A4-860x1216.png 860w, https://www.criselvazzanodentro.it/wp-content/uploads/2018/04/A4-1160x1640.png 1160w\" sizes=\"(max-width: 1240px) 100vw, 1240px\" /></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 5569,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5567"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5567"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5567/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5570,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5567/revisions/5570"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5569"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5567"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5567"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5567"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5554,
+        "date": "2017-09-19T09:56:57",
+        "date_gmt": "2017-09-19T07:56:57",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5554"
+        },
+        "modified": "2017-09-19T09:57:29",
+        "modified_gmt": "2017-09-19T07:57:29",
+        "slug": "presentazione-del-corso-formazione-volontari-cri",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/presentazione-del-corso-formazione-volontari-cri/",
+        "title": {
+            "rendered": "Presentazione del nuovo Corso di Formazione per Volontari CRI"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"></style><p><img class=\"alignright size-full wp-image-5555\" src=\"/news-images/presentazione-del-corso-formazione-volontari-cri-1.jpg\" alt=\"\" width=\"1440\" height=\"741\" srcset=\"https://www.criselvazzanodentro.it/wp-content/uploads/2017/09/21762536_1445595922156389_834517267541337034_o.jpg 1440w, https://www.criselvazzanodentro.it/wp-content/uploads/2017/09/21762536_1445595922156389_834517267541337034_o-300x154.jpg 300w, https://www.criselvazzanodentro.it/wp-content/uploads/2017/09/21762536_1445595922156389_834517267541337034_o-768x395.jpg 768w, https://www.criselvazzanodentro.it/wp-content/uploads/2017/09/21762536_1445595922156389_834517267541337034_o-1024x527.jpg 1024w, https://www.criselvazzanodentro.it/wp-content/uploads/2017/09/21762536_1445595922156389_834517267541337034_o-580x298.jpg 580w, https://www.criselvazzanodentro.it/wp-content/uploads/2017/09/21762536_1445595922156389_834517267541337034_o-860x443.jpg 860w, https://www.criselvazzanodentro.it/wp-content/uploads/2017/09/21762536_1445595922156389_834517267541337034_o-1160x597.jpg 1160w\" sizes=\"(max-width: 1440px) 100vw, 1440px\" /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Il giorno lunedì 16 ottobre alle ore 21.00 in Piazza Carlo Leoni n. 11, Caselle di Selvazzano Dentro (PD) (sopra la birreria Kofler) si terrà la presentazione del nuovo corso di formazione per aspiranti volontari di Croce rossa.</p>\n<p>Il corso per l&#8217;accesso si sviluppa in n. 5 lezioni teoriche di 2 ore e n. 2 lezioni pratiche di 4 ore oltre all&#8217;esame finale.</p>\n<p>Iscriviti ad uno dei due corsi attivi attraverso il portale “Gaia” di Croce Rossa al link:</p>\n<p><a href=\"https://gaia.cri.it/\">https://gaia.cri.it/</a></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>&nbsp; &nbsp; Il giorno lunedì 16 ottobre alle ore 21.00 in Piazza Carlo Leoni n. 11, Caselle di Selvazzano Dentro (PD) (sopra la birreria Kofler) si terrà la presentazione del nuovo corso di formazione per aspiranti volontari di Croce rossa. Il corso per l&#8217;accesso si sviluppa in n. 5 lezioni teoriche di 2 ore e&#8230;</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 5555,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5554"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5554"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5554/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5557,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5554/revisions/5557"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5555"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5554"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5554"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5554"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5499,
+        "date": "2016-10-11T14:43:47",
+        "date_gmt": "2016-10-11T12:43:47",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5499"
+        },
+        "modified": "2016-10-11T14:43:47",
+        "modified_gmt": "2016-10-11T12:43:47",
+        "slug": "corso-formazione-volontari-della-croce-rossa",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/corso-formazione-volontari-della-croce-rossa/",
+        "title": {
+            "rendered": "Nuovo corso di formazione per volontari della Croce Rossa"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"></style><p><img class=\"aligncenter size-full wp-image-5501\" src=\"/news-images/corso-formazione-volontari-della-croce-rossa-1.jpg\" alt=\"immagine-per-sito-2016\" width=\"2048\" height=\"1016\" srcset=\"https://www.criselvazzanodentro.it/wp-content/uploads/2016/10/immagine-per-sito-2016.jpg 2048w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/10/immagine-per-sito-2016-300x149.jpg 300w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/10/immagine-per-sito-2016-768x381.jpg 768w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/10/immagine-per-sito-2016-1024x508.jpg 1024w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/10/immagine-per-sito-2016-580x288.jpg 580w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/10/immagine-per-sito-2016-860x427.jpg 860w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/10/immagine-per-sito-2016-1160x575.jpg 1160w\" sizes=\"(max-width: 2048px) 100vw, 2048px\" /></p>\n<p>Il giorno mercoledì 2 novembre alle ore 21.00 in Piazza Carlo Leoni n. 11, Caselle di Selvazzano Dentro (PD) (sopra la birreria Kofler) si terrà la presentazione del nuovo corso di formazione per aspiranti volontari di Croce rossa.</p>\n<p>Il corso per l&#8217;accesso si sviluppa in n. 5 lezioni teoriche di 2 ore e n. 2 lezioni pratiche di 4 ore oltre all&#8217;esame finale.</p>\n<p>Iscriviti ad uno dei due corsi attivi attraverso il portale “Gaia” di Croce Rossa al link:</p>\n<p><a href=\"https://gaia.cri.it/\">https://gaia.cri.it/</a></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Il giorno mercoledì 2 novembre alle ore 21.00 in Piazza Carlo Leoni n. 11, Caselle di Selvazzano Dentro (PD) (sopra la birreria Kofler) si terrà la presentazione del nuovo corso di formazione per aspiranti volontari di Croce rossa. Il corso per l&#8217;accesso si sviluppa in n. 5 lezioni teoriche di 2 ore e n. 2&#8230;</p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 5501,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5499"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5499"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5499/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5502,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5499/revisions/5502"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5501"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5499"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5499"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5499"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5479,
+        "date": "2016-09-20T19:32:20",
+        "date_gmt": "2016-09-20T17:32:20",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5479"
+        },
+        "modified": "2016-09-20T19:32:20",
+        "modified_gmt": "2016-09-20T17:32:20",
+        "slug": "25-settembre-manifestazione-podistica-39a-marcia-de-la-piroga-6-straselvazzano",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/25-settembre-manifestazione-podistica-39a-marcia-de-la-piroga-6-straselvazzano/",
+        "title": {
+            "rendered": "25 settembre &#8211; Manifestazione Podistica “39ª Marcia de la Piroga” e “6 ª Straselvazzano”"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"> \n#cmsms_row_697eaec3d873a .cmsms_row_outer_parent { \n\tpadding-top: 0px; \n} \n\n#cmsms_row_697eaec3d873a .cmsms_row_outer_parent { \n\tpadding-bottom: 50px; \n} \n\n</style><div id=\"cmsms_row_697eaec3d8684\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<div class=\"cmsms_text\">\n<p><img class=\"aligncenter size-full wp-image-5482\" src=\"/news-images/25-settembre-manifestazione-podistica-39a-marcia-de-la-piroga-6-straselvazzano-1.jpg\" alt=\"marcia\" width=\"626\" height=\"427\" srcset=\"https://www.criselvazzanodentro.it/wp-content/uploads/2016/09/Marcia.jpg 626w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/09/Marcia-300x205.jpg 300w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/09/Marcia-580x396.jpg 580w\" sizes=\"(max-width: 626px) 100vw, 626px\" /></p>\n<p>Il Comitato di Croce Rossa di Selvazzano Dentro collabora attivamente con il Gruppo Podistico Euganeo per promuovere una cultura di vita sana e di attenzione alla salute attraverso lo sport; in particolare, tramite l’attività podistica di cui l’associazione organizzatrice promuove la diffusione.</p>\n<p>La partenza è prevista dagli impianti sportivi Ceron di Tencarola di Selvazzano Dentro alle ore 8.00 &#8211; 10.00.</p>\n<p>Il primo punto ristoro gestito dal Comitato di Croce rossa di Selvazzano Dentro si trova davanti alla Chiesa di Selvazzano Dentro mentre gli altri ristori sono dislocati lungo i percorsi fino all&#8217;arrivo.</p>\n<p>La marcia è a passo libero ed è aperta a tutti. I percorsi sono di km 6 -12 -18 ed è prevista, altresì, una minimarcia di km 4.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div id=\"cmsms_row_697eaec3d873a\" class=\"cmsms_row cmsms_color_scheme_default\">\n<div class=\"cmsms_row_outer_parent\">\n<div class=\"cmsms_row_outer\">\n<div class=\"cmsms_row_inner\">\n<div class=\"cmsms_row_margin\">\n<div class=\"cmsms_column one_first\">\n<p><script type=\"text/javascript\">jQuery(document).ready(function () { jQuery(\"#google_map_697eaec3d8883\").gMap( { address: \"Via Tasso, Selvazzano Dentro\", maptype: \"ROADMAP\", zoom: 14, scrollwheel: true, doubleClickZoom: true, controls: {panControl: true, zoomControl: true, mapTypeControl: true, scaleControl: true, streetViewControl: true, overviewMapControl: true, },markers: [{address: \"Via Euganea, 29, 35030 Selvazzano Dentro PD\",html: \"Ristoro 1\",},] } ); } );</script>\n<div class=\"resizable_block\">\n<div id=\"google_map_697eaec3d8883\" class=\"google_map\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5479"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5479"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 10,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5479/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5491,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5479/revisions/5491"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5479"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5479"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5479"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5470,
+        "date": "2016-08-30T12:50:50",
+        "date_gmt": "2016-08-30T10:50:50",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5470"
+        },
+        "modified": "2016-08-30T12:51:11",
+        "modified_gmt": "2016-08-30T10:51:11",
+        "slug": "30-agosto-giornata-internazionale-delle-persone-scomparse",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/30-agosto-giornata-internazionale-delle-persone-scomparse/",
+        "title": {
+            "rendered": "30 Agosto &#8211; Giornata Internazionale delle persone scomparse"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"></style><p><iframe width=\"1160\" height=\"653\" src=\"https://www.youtube.com/embed/uiIpLtKIYiM?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe></p>\n<p>In occasione della <strong>&#8220;Giornata Internazionale delle persone scomparse&#8221;</strong> 30 agosto, vogliamo richiamare l&#8217;attenzione sulle attività dell&#8217;Ufficio di Ricerche e Ristabilimento dei Contatti Familiari  della Croca Rossa con particolare attenzione al progetto <strong>Trace The Face</strong>.</p>\n<p>Nato nel 2013 come progetto pilota in ausilio alle attività dell’Ufficio Ricerche RFL (Restoring Family Links) e del servizio trasmissione messaggi della Croce Rossa, il progetto europeo <strong><em>Trace the Face</em></strong>, ad oggi conta 28 paesi partecipanti e si sta affermando come <strong>strumento efficace nel ristabilire i legami familiari persi</strong> a causa di conflitti, calamità naturali e migrazioni.</p>\n<p>Trace the Face è un servizio che permette di poter <strong>pubblicare la propria foto</strong> con la <strong>richiesta di ricerca di un proprio familiare</strong> scomparso. Da Settembre 2013 ad Aprile 2016 sono state pubblicate più di mille foto e numerosi sono stati i <strong>casi conclusi positivamente</strong>. La foto può essere pubblicata sui posters di <strong>Familylinks – Trace the Face</strong> oppure sulla piattaforma online collegandosi al sito <a href=\"http://familylinks.icrc.org/europe/en/Pages/publish-your-photo.aspx\" data-saferedirecturl=\"https://www.google.com/url?hl=it&amp;q=http://familylinks.icrc.org/europe/en/Pages/publish-your-photo.aspx&amp;source=gmail&amp;ust=1472636758436000&amp;usg=AFQjCNHnds0Ky2AU43e8H6x5o_9dc4H9-w\">http://familylinks.icrc.org/eu rope/en/Pages/publish-your-photo.aspx</a>. In entrambi i casi il servizio è garantito con l’<strong>assistenza di un operatore RFL</strong> della Croce Rossa che accompagna la procedura da eseguire, mantenendo la riservatezza del richiedente.</p>\n<p>Il poster Trace the Face viene pubblicato <strong>mensilmente</strong> e viene affisso nei punti strategici della città  (prefettura, questura, centri d’accoglienza, mense Caritas ecc.) e nei luoghi di aggregazione e ritrovo di comunità straniere.</p>\n<p>La <strong>rete internazionale di Croce Rossa</strong>, permette di mettere in contatto i familiari dispersi rivolgendosi direttamente alla proprie società nazionali di riferimento che provvederanno a favorire il match e quindi al riconoscimento e ricongiungimento delle persone scomparse.</p>\n<p>Ulteriori informazioni si possono trovare sul sito <a style=\"font-style: inherit;\" href=\"http://www.tracetheface.org/\" data-saferedirecturl=\"https://www.google.com/url?hl=it&amp;q=http://www.tracetheface.org/&amp;source=gmail&amp;ust=1472636758436000&amp;usg=AFQjCNFrBrh-dujgl9NBD_CxUs9qTlEGxw\">www.tracetheface.org</a> e nel video <span style=\"font-style: inherit;\"><a style=\"font-style: inherit;\" href=\"https://www.youtube.com/watch?v=uiIpLtKIYiM&amp;feature=youtu.be\" data-saferedirecturl=\"https://www.google.com/url?hl=it&amp;q=https://www.youtube.com/watch?v%3DuiIpLtKIYiM%26feature%3Dyoutu.be&amp;source=gmail&amp;ust=1472636758436000&amp;usg=AFQjCNEsb2bq0Kr6Dv9aIEQYI4CK-VZ-Sw\">www.youtube.com/tracetheface</a>  o sul profilo FB</span><span style=\"font-style: inherit;\"> <a href=\"http://tracetheface.org/\" data-saferedirecturl=\"https://www.google.com/url?hl=it&amp;q=http://tracetheface.org/&amp;source=gmail&amp;ust=1472636758436000&amp;usg=AFQjCNFunX9L_wqzEtkNp2o7l-VR_CyPBA\">Tracetheface.org</a> for migrants in Europe.</span></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>In occasione della &#8220;Giornata Internazionale delle persone scomparse&#8221; 30 agosto, vogliamo richiamare l&#8217;attenzione sulle attività dell&#8217;Ufficio di Ricerche e Ristabilimento dei Contatti Familiari  della Croca Rossa con particolare attenzione al progetto Trace The Face. Nato nel 2013 come progetto pilota in ausilio alle attività dell’Ufficio Ricerche RFL (Restoring Family Links) e del servizio trasmissione messaggi della Croce Rossa,&#8230;</p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5470"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5470"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5470/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5472,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5470/revisions/5472"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5470"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5470"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5470"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5457,
+        "date": "2016-08-26T10:06:08",
+        "date_gmt": "2016-08-26T08:06:08",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=5457"
+        },
+        "modified": "2016-08-27T12:46:48",
+        "modified_gmt": "2016-08-27T10:46:48",
+        "slug": "emergenza-terremoto-centro-italia",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/emergenza-terremoto-centro-italia/",
+        "title": {
+            "rendered": "Emergenza Terremoto Centro Italia"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"></style><p><img class=\"alignnone size-full wp-image-5461\" src=\"/news-images/emergenza-terremoto-centro-italia-1.png\" alt=\"banner_cri_terremoto_centro_italia\" width=\"700\" height=\"310\" srcset=\"https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/banner_cri_terremoto_centro_italia.png 700w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/banner_cri_terremoto_centro_italia-300x133.png 300w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/banner_cri_terremoto_centro_italia-580x257.png 580w\" sizes=\"(max-width: 700px) 100vw, 700px\" /></p>\n<p>&#8212;&#8211; Aggiornamento del 27 Agosto 2016 &#8212;&#8211;</p>\n<p><strong>Grazie all&#8217;aiuto di tutti voi l&#8217;emergenza beni alimentari e di prima necessità è terminata. Al momento, il modo migliore per aiutare la popolazione coinvolta dal <a href=\"https://www.facebook.com/hashtag/terremoto\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?hl=it&amp;q=https://www.facebook.com/hashtag/terremoto&amp;source=gmail&amp;ust=1472380853668000&amp;usg=AFQjCNEVTzd363M8K1EthJfQ7I3qLaF-gg\">#terremoto</a> sono le donazioni in denaro. Dona ora su: <a href=\"http://www.cri.it/terremoto-centro-italia\" target=\"_blank\" rel=\"nofollow nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=it&amp;q=http://www.cri.it/terremoto-centro-italia&amp;source=gmail&amp;ust=1472380853668000&amp;usg=AFQjCNGBt6V9mCAO18D8amaS3CvVFpmhbg\">www.cri.it/terremoto-centro-<wbr />italia</a></strong></p>\n<p><img class=\"alignnone size-full wp-image-5466\" src=\"/news-images/emergenza-terremoto-centro-italia-2.jpg\" alt=\"Stop beni\" width=\"1800\" height=\"1196\" srcset=\"https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/Stop-beni.jpg 1800w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/Stop-beni-300x199.jpg 300w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/Stop-beni-768x510.jpg 768w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/Stop-beni-1024x680.jpg 1024w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/Stop-beni-580x385.jpg 580w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/Stop-beni-860x571.jpg 860w, https://www.criselvazzanodentro.it/wp-content/uploads/2016/08/Stop-beni-1160x771.jpg 1160w\" sizes=\"(max-width: 1800px) 100vw, 1800px\" /></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>&#8212;&#8211; Aggiornamento del 27 Agosto 2016 &#8212;&#8211; Grazie all&#8217;aiuto di tutti voi l&#8217;emergenza beni alimentari e di prima necessità è terminata. Al momento, il modo migliore per aiutare la popolazione coinvolta dal #terremoto sono le donazioni in denaro. Dona ora su: www.cri.it/terremoto-centro-italia</p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 5458,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5457"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=5457"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 5,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5457/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 5468,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/5457/revisions/5468"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/5458"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=5457"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=5457"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=5457"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4641,
+        "date": "2016-01-28T11:00:45",
+        "date_gmt": "2016-01-28T10:00:45",
+        "guid": {
+            "rendered": "http://www.criselvazzanodentro.it/?p=4641"
+        },
+        "modified": "2016-02-14T18:35:06",
+        "modified_gmt": "2016-02-14T17:35:06",
+        "slug": "elezioni-degli-organi-dei-comitati-locali-croce-rossa",
+        "status": "publish",
+        "type": "post",
+        "link": "https://www.criselvazzanodentro.it/elezioni-degli-organi-dei-comitati-locali-croce-rossa/",
+        "title": {
+            "rendered": "Elezioni degli Organi dei Comitati Locali di Croce Rossa"
+        },
+        "content": {
+            "rendered": "<style type=\"text/css\"></style><p>Sono indette le elezioni degli Organi dei Comitati Locali dell&#8217;Associazione. Le procedure elettorali si svolgeranno a partire dal giorno 17 dicembre.</p>\n<p>La consultazione elettorale si terrà in data 28 febbraio 2016.</p>\n<p><a href=\"http://www.criselvazzanodentro.it/wp-content/uploads/2016/01/ordinanza-286-15.pdf\" rel=\"\">In allegato l&#8217;ordinanza presidenziale 286/15</a></p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Sono indette le elezioni degli Organi dei Comitati Locali dell&#8217;Associazione. Le procedure elettorali si svolgeranno a partire dal giorno 17 dicembre. La consultazione elettorale si terrà in data 28 febbraio 2016. In allegato l&#8217;ordinanza presidenziale 286/15</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 4715,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "image",
+        "meta": {
+            "ngg_post_thumbnail": 0
+        },
+        "categories": [
+            5
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/4641"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/types/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/comments?post=4641"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/4641/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 4645,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/posts/4641/revisions/4645"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media/4715"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/media?parent=4641"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/categories?post=4641"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://www.criselvazzanodentro.it/wp-json/wp/v2/tags?post=4641"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

@@ -62,8 +62,8 @@ export default {
   async mounted() {
     try {
       const [postsRes, mediaRes] = await Promise.all([
-        fetch('/admin/get-data.php?type=posts'),
-        fetch('/admin/get-data.php?type=media')
+        fetch('/api/get-data?type=posts'),
+        fetch('/api/get-data?type=media')
       ])
       this.posts = await postsRes.json()
       this.media = await mediaRes.json()

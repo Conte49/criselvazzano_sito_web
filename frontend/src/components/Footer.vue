@@ -16,6 +16,7 @@
             <li><router-link to="/news">News</router-link></li>
             <li><router-link to="/diventa-volontario">Diventa Volontario</router-link></li>
             <li><router-link to="/dona">Dona il 5x1000</router-link></li>
+            <li><router-link to="/trasparenza">Trasparenza</router-link></li>
           </ul>
         </div>
         

@@ -56,9 +56,8 @@ export default {
   data() {
     return {
       documenti: [
-        // Aggiungi qui i documenti man mano che li carichi in public/documenti/
-        // { nome: 'Bilancio consuntivo 2024', anno: '2024', file: 'bilancio-2024.pdf' },
-        // { nome: 'Bilancio consuntivo 2023', anno: '2023', file: 'bilancio-2023.pdf' },
+        { nome: 'Relazione Bilancio Preventivo 2026', anno: '2026', file: 'Relazione BP 2026 C.pdf' },
+        { nome: 'Allegato Bilancio Preventivo 2025', anno: '2025', file: 'Allegato BP 2025.pdf' },
       ]
     }
   },

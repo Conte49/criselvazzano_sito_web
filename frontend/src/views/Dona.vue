@@ -50,7 +50,7 @@
               </div>
               <h3>PayPal</h3>
               <p>Dona online in modo sicuro e veloce</p>
-              <a href="https://www.paypal.com/donate?token=KT5tm82R_Dt7w5PLCryLQx2rNrJo45wXVBplI2JaOosS7QaZKu0828s_HClLXX1KjTgzzsFzGw5mLHUt" target="_blank" rel="noopener" class="btn btn-primary">Dona con PayPal</a>
+              <div id="paypal-container-NTW9NKU3UYPY4"></div>
             </div>
           </div>
         </div>
@@ -69,9 +69,27 @@ export default {
   components: { Icon },
   mounted() {
     this.$nextTick(() => initReveal(this.$el))
+    this.loadPayPal()
   },
   beforeUnmount() {
     destroyReveal()
+    // Rimuovi lo script PayPal al cambio pagina
+    const script = document.querySelector('script[src*="paypal.com/sdk"]')
+    if (script) script.remove()
+  },
+  methods: {
+    loadPayPal() {
+      const script = document.createElement('script')
+      script.src = 'https://www.paypal.com/sdk/js?client-id=BAAYkTK-7EBWJ6e7P19jJPeh-U-JO5FiCeM-DYS4G9aKxehbZcl9Jbvt3gtJOGBlQXvj1qmdB9R2QZGWas&components=hosted-buttons&disable-funding=venmo&currency=EUR'
+      script.onload = () => {
+        if (window.paypal) {
+          window.paypal.HostedButtons({
+            hostedButtonId: 'NTW9NKU3UYPY4'
+          }).render('#paypal-container-NTW9NKU3UYPY4')
+        }
+      }
+      document.head.appendChild(script)
+    }
   }
 }
 </script>

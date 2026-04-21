@@ -56,8 +56,10 @@ export default {
   data() {
     return {
       documenti: [
-        { nome: 'Relazione Bilancio Preventivo 2026', anno: '2026', file: 'Relazione BP 2026 C.pdf' },
-        { nome: 'Allegato Bilancio Preventivo 2026', anno: '2026', file: 'Allegato BP 2026.pdf' },
+        { nome: 'Bilancio Preventivo 2026', anno: '2026', file: 'Bilancio Preventivo 2026.pdf' },
+        { nome: 'Bilancio Previsione 2026', anno: '2026', file: 'Bilancio Previsione 2026.pdf' },
+        { nome: 'Bilancio 2025', anno: '2025', file: 'Bilancio 2025.pdf' },
+        { nome: 'Bilancio 2024', anno: '2024', file: 'Bilancio 2024.pdf' },
       ]
     }
   },

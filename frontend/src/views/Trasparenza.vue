@@ -15,9 +15,10 @@
             in conformità agli obblighi di trasparenza previsti per gli enti del Terzo Settore.
           </p>
 
-          <div class="docs-list stagger-children">
+          <h2 class="docs-section-title reveal">Bilanci di Esercizio</h2>
+          <div v-if="bilanciEsercizio.length" class="docs-list stagger-children">
             <a
-              v-for="doc in documenti"
+              v-for="doc in bilanciEsercizio"
               :key="doc.file"
               :href="`/documenti/${doc.file}`"
               target="_blank"
@@ -37,10 +38,32 @@
               <span class="doc-badge">PDF</span>
             </a>
           </div>
+          <p v-else class="empty-state">Nessun documento disponibile al momento.</p>
 
-          <p v-if="!documenti.length" class="empty-state">
-            Nessun documento disponibile al momento.
-          </p>
+          <h2 class="docs-section-title reveal">Bilanci di Previsione</h2>
+          <div v-if="bilanciPrevisione.length" class="docs-list stagger-children">
+            <a
+              v-for="doc in bilanciPrevisione"
+              :key="doc.file"
+              :href="`/documenti/${doc.file}`"
+              target="_blank"
+              rel="noopener"
+              class="doc-row reveal"
+            >
+              <div class="doc-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="doc-info">
+                <span class="doc-name">{{ doc.nome }}</span>
+                <span v-if="doc.anno" class="doc-anno">{{ doc.anno }}</span>
+              </div>
+              <span class="doc-badge">PDF</span>
+            </a>
+          </div>
+          <p v-else class="empty-state">Nessun documento disponibile al momento.</p>
         </div>
       </div>
     </section>
@@ -55,11 +78,13 @@ const { init: initReveal, destroy: destroyReveal } = useReveal()
 export default {
   data() {
     return {
-      documenti: [
-        { nome: 'Bilancio Preventivo 2026', anno: '2026', file: 'Bilancio Preventivo 2026.pdf' },
-        { nome: 'Bilancio Previsione 2026', anno: '2026', file: 'Bilancio Previsione 2026.pdf' },
+      bilanciEsercizio: [
         { nome: 'Bilancio 2025', anno: '2025', file: 'Bilancio 2025.pdf' },
         { nome: 'Bilancio 2024', anno: '2024', file: 'Bilancio 2024.pdf' },
+      ],
+      bilanciPrevisione: [
+        { nome: 'Bilancio Preventivo 2026', anno: '2026', file: 'Bilancio Preventivo 2026.pdf' },
+        { nome: 'Bilancio Previsione 2026', anno: '2026', file: 'Bilancio Previsione 2026.pdf' },
       ]
     }
   },
@@ -82,6 +107,22 @@ export default {
   font-size: 1.0625rem;
   line-height: 1.8;
   color: var(--cri-text-light);
+  margin-bottom: 48px;
+}
+
+.docs-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cri-red);
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.docs-section-title + .docs-list {
+  margin-bottom: 48px;
+}
+
+.docs-section-title + .empty-state {
   margin-bottom: 48px;
 }
 

@@ -81,6 +81,7 @@ export default {
       bilanciEsercizio: [
         { nome: 'Bilancio di esercizio 2025', anno: '2025', file: 'Bilancio 2025.pdf' },
         { nome: 'Bilancio di esercizio 2024', anno: '2024', file: 'Bilancio 2024.pdf' },
+        { nome: 'Bilancio di esercizio 2023', anno: '2023', file: 'Bilancio 2023.pdf' },
       ],
       bilanciPrevisione: [
         { nome: 'Bilancio Preventivo 2026', anno: '2026', file: 'Bilancio Preventivo 2026.pdf' },

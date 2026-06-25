@@ -64,6 +64,31 @@
             </a>
           </div>
           <p v-else class="empty-state">Nessun documento disponibile al momento.</p>
+
+          <h2 class="docs-section-title reveal">Obblighi di Pubblicità</h2>
+          <div v-if="obblighiPubblicita.length" class="docs-list stagger-children">
+            <a
+              v-for="doc in obblighiPubblicita"
+              :key="doc.file"
+              :href="`/documenti/${doc.file}`"
+              target="_blank"
+              rel="noopener"
+              class="doc-row reveal"
+            >
+              <div class="doc-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="doc-info">
+                <span class="doc-name">{{ doc.nome }}</span>
+                <span v-if="doc.anno" class="doc-anno">{{ doc.anno }}</span>
+              </div>
+              <span class="doc-badge">PDF</span>
+            </a>
+          </div>
+          <p v-else class="empty-state">Nessun documento disponibile al momento.</p>
         </div>
       </div>
     </section>
@@ -86,6 +111,9 @@ export default {
       bilanciPrevisione: [
         { nome: 'Bilancio Preventivo 2026', anno: '2026', file: 'Bilancio Preventivo 2026.pdf' },
         { nome: 'Bilancio Previsione 2026', anno: '2026', file: 'Bilancio Previsione 2026.pdf' },
+      ],
+      obblighiPubblicita: [
+        { nome: 'Obblighi di pubblicità', anno: '2026', file: 'Obblighi di pubblicità - 2026.pdf' },
       ]
     }
   },
